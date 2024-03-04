@@ -4,4 +4,5 @@ The Lean Canvas approach is a methodology for developing and iterating on busine
 
 For more information about the Lean Canvas approach, visit [LeanCanvas.com](https://www.leancanvas.com/).
 
-Our Lean Canvas 1-page business plan, access the [Google Sheet here](https://docs.google.com/presentation/d/1k135GpfykPuFw_JFfOs_Jzxg8Sao2-igCkG2mNVaey8/edit#slide=id.gc8216bd24_20_0)https://docs.google.com/presentation/d/1k135GpfykPuFw_JFfOs_Jzxg8Sao2-igCkG2mNVaey8/edit#slide=id.gc8216bd24_20_0).
+Our Lean Canvas 1-page business plan, [click here](https://docs.google.com/presentation/d/1k135GpfykPuFw_JFfOs_Jzxg8Sao2-igCkG2mNVaey8/edit#slide=id.gc8216bd24_20_0)
+to access the google sheet.
