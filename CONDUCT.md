@@ -12,6 +12,11 @@ identity and orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
 
+
+## Meeting Times
+ * Friday 12pm zoom meeting
+
+
 ## Our Standards
 
 Examples of behavior that contributes to a positive environment for our
