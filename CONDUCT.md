@@ -36,6 +36,11 @@ Examples of unacceptable behavior include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
+## No Phone Policy
+
+* During meetings whether online or in person the use of phones is absolutely prohibited
+* Phones should not be seen on the table or at all
+
 ## Enforcement Responsibilities
 
 Community leaders are responsible for clarifying and enforcing our standards of
