@@ -19,3 +19,8 @@ Observation 3:
 ○ Supporting Data:
  - 57% of users preferred using chats to communicate and collaborate with study groups and 22% preferred video calls. 
 
+● Observation 4:
+○ Observation Statement:
+- Over half of the users think its really important  to have access to study groups outside of your immediate university network?
+○ Supporting Data:
+- on  scale of 1-5 57.1% of users picked 3 or above.
