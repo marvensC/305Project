@@ -13,3 +13,9 @@ Observation 2:
 
 
 
+Observation 3:
+○ Observation Statement:
+ - Most people prefer to communicate through chats. The second most popular method of communication is video calls. So in our app we need to really focus on making a good chat method in we are able to we can add a video call method.
+○ Supporting Data:
+ - 57% of users preferred using chats to communicate and collaborate with study groups and 22% preferred video calls. 
+
