@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UserSchema",
+  "type": "object",
+  "properties": {
+    "Friends": {
+      "type": "string"
+    },
+    "NumMessages": {
+      "type": "string"
+    },
+    "Subjects": {
+      "type": "string"
+    },
+    "UserName": {
+      "type": "string"
+    }
+  },
+  "required": ["Friends", "NumMessages", "Subjects", "UserName"]
+}
