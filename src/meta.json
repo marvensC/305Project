@@ -1,0 +1,262 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "65f30f1b9d6e03ddc3d6ede3": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f30f1b9d6e03ddc3d6ede3",
+                    "size": "48513",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "studysync-high-resolution-logo.png",
+                    "backendURI": "/project/65e73215f05d06f409c94b7f/getasset/65f30f1b9d6e03ddc3d6ede3",
+                    "name": "studysync-high-resolution-logo.png",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f30f1b9d6e03ddc3d6ede3",
+                    "createdAt": "2024-03-14T14:52:11.520Z",
+                    "updatedAt": "2024-03-14T14:52:11.520Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f30f1b9d6e03ddc3d6ede3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240314%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240314T145211Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=774228e910d31b3275db9a41d7d866832f81330bd389fce92d7fd2b96f5f0d1844e0c7c28ca0a6305f76ad905f06e4841337fc4c1216190eff8a77200ccd25b01170749b1470104c66d1ae81c3c6e9d2bc17325f2cfa233fdd7a7cf197e3465cad8ed8b1cbad2c7d0cf0e89ac27031ecbc945680c93fd5b915f14665fe7ad3c8f17b34d174292b8874cb0b6c337b20f2d7ab8a2bfe237317f75ac1ba453950d14b2efd9c2833c52d75ef700a8656196e65be51105aa4fe176d7d95deee9e200800c510b2b43260cf1a90fcae16c9783e026af6afa229a96f754ebf4c77e26e63b3587834b8b0b4fca4edfb4d235e9dad03ab3a6bc335d19f8ca0cc610c8ca0fb",
+                    "signedUrlExpirationTime": 1710600731555
+                }
+            },
+            "backendUpgradeVersion": 24,
+            "blockly": {
+                "16f1ea67-693f-4c43-85b5-5cdd66c997a7": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "38339342-9320-420a-922a-dd8a2f060883": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "8c347ff8-8160-47b3-9d17-644e84b56ad3": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "8bebbc11-e531-4599-863e-eded44af15dc": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [
+                "Social Networking"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "id": "38339342-9320-420a-922a-dd8a2f060883"
+                    },
+                    {
+                        "id": "16f1ea67-693f-4c43-85b5-5cdd66c997a7"
+                    },
+                    {
+                        "id": "8c347ff8-8160-47b3-9d17-644e84b56ad3"
+                    },
+                    {
+                        "id": "8bebbc11-e531-4599-863e-eded44af15dc"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": "https://x.thunkable.com/project/65e73215f05d06f409c94b7f/getasset/65f31f1cc732c9e66caca5b6",
+            "projectName": "StudySync",
+            "settings": {
+                "teamId": null,
+                "appName": "StudySync",
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f31f1cc732c9e66caca5b6",
+                    "size": "48513",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "studysync-high-resolution-logo.png",
+                    "backendURI": "/project/65e73215f05d06f409c94b7f/getasset/65f31f1cc732c9e66caca5b6",
+                    "name": "studysync-high-resolution-logo.png",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f31f1cc732c9e66caca5b6",
+                    "createdAt": "2024-03-14T16:00:29.209Z",
+                    "updatedAt": "2024-03-14T16:00:29.209Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f31f1cc732c9e66caca5b6?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240314%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240314T160029Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=876022d1ecb6e0f69153849917aaaafa7ec99ea283506209cd5d753468976d5c7fd6da5e8fb1c02ee523af80402a579f1da5624a906b803a5362f891a8e0849752b71bebc4efb3467d47c52e79ed525c60899d78a269aa6b08e3ca36b41632205473ff0553f1ae7892edce10fe8166b35d8e40ba8ee0b18f17008a702e22cca35e7038388e2dddba1d6f250fec24bdbde948d26b50fdd9936e2d8d1b60429a44517eb6ed6f688f461d79483774640c8663d9e9329f8903dcb75eed97c8852bd569187c0125abf098aa24f021b33523e6d4643ecea55ebdc859cac2fe47aca7fe9c0ca49fa9196cefba516eacda59ee7a80ba778b2cc26eaf95c41df0cbe8546c",
+                    "signedUrlExpirationTime": 1710604829304
+                },
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBnXyRKOGRFpi-Zk6Gk9Ac5YB_2b7mBcI4",
+                "firebaseDatabaseURL": "https://csc305project-3b5d8-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {}
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": "StudySync",
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "65f31f1cc732c9e66caca5b6",
+                    "size": "48513",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "studysync-high-resolution-logo.png",
+                    "backendURI": "/project/65e73215f05d06f409c94b7f/getasset/65f31f1cc732c9e66caca5b6",
+                    "name": "studysync-high-resolution-logo.png",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f31f1cc732c9e66caca5b6",
+                    "createdAt": "2024-03-14T16:00:29.209Z",
+                    "updatedAt": "2024-03-14T16:00:29.209Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/65e73215f05d06f409c94b7f/assets/65f31f1cc732c9e66caca5b6?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240314%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240314T160029Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=876022d1ecb6e0f69153849917aaaafa7ec99ea283506209cd5d753468976d5c7fd6da5e8fb1c02ee523af80402a579f1da5624a906b803a5362f891a8e0849752b71bebc4efb3467d47c52e79ed525c60899d78a269aa6b08e3ca36b41632205473ff0553f1ae7892edce10fe8166b35d8e40ba8ee0b18f17008a702e22cca35e7038388e2dddba1d6f250fec24bdbde948d26b50fdd9936e2d8d1b60429a44517eb6ed6f688f461d79483774640c8663d9e9329f8903dcb75eed97c8852bd569187c0125abf098aa24f021b33523e6d4643ecea55ebdc859cac2fe47aca7fe9c0ca49fa9196cefba516eacda59ee7a80ba778b2cc26eaf95c41df0cbe8546c",
+                    "signedUrlExpirationTime": 1710604829304
+                },
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBnXyRKOGRFpi-Zk6Gk9Ac5YB_2b7mBcI4",
+                "firebaseDatabaseURL": "https://csc305project-3b5d8-default-rtdb.firebaseio.com/",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {}
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "1",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "50d77996-e9a6-4692-9cd4-9951e78e2968": {
+                    "scope": "APP",
+                    "name": "currentlysigningup",
+                    "screenId": "38339342-9320-420a-922a-dd8a2f060883"
+                },
+                "64079434-a873-465a-89c2-cee75976bf53": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "38339342-9320-420a-922a-dd8a2f060883"
+                },
+                "0889c1e0-7599-4a30-93db-ffc57d4d34fd": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "38339342-9320-420a-922a-dd8a2f060883"
+                },
+                "514903ed-14dd-4545-a95f-d303212bb4cd": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "16f1ea67-693f-4c43-85b5-5cdd66c997a7"
+                },
+                "ef4171d0-b40b-473d-ad01-98fb66d9c0b5": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "16f1ea67-693f-4c43-85b5-5cdd66c997a7"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
