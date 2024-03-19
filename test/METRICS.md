@@ -1,6 +1,4 @@
-#[Heart FrameWork] (https://docs.google.com/presentation/d/1Kh7EC-i2Ot1PZarWJZwRfOgKvpywzCAyRmtSA8tfV9c/edit#slide=id.gc8216bd24_20_0)
-
-
+# <a href="https://docs.google.com/presentation/d/1Kh7EC-i2Ot1PZarWJZwRfOgKvpywzCAyRmtSA8tfV9c/edit#slide=id.gc8216bd24_20_0)https://docs.google.com/presentation/d/1Kh7EC-i2Ot1PZarWJZwRfOgKvpywzCAyRmtSA8tfV9c/edit#slide=id.gc8216bd24_20_0"> Heart Framework </a>
 ## NPS
 
 ## Adoption
