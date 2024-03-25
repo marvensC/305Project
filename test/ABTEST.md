@@ -117,4 +117,36 @@ The experiment will run for a predefined period, typically several weeks, to gat
 
 
 Babatunde Fakolujo
-A/B Test Name:
+A/B Test Name:Features Page Design Variation
+
+US Num10
+
+Metric (from the HEART grid): Engagement
+
+Hypothesis:
+Problem: Our "Features" page receives a significant amount of traffic, but visitors tend to drop off before scrolling through all the content. This suggests that the current design may be overwhelming or not effectively presenting the key features to users.
+
+Impact: Improving the design and layout of the "Features" page could lead to increased engagement and retention rates. If users can easily navigate and find the features they are interested in, they are more likely to stay on the page longer, potentially resulting in higher conversion rates.
+
+Experiment Setup using Firebase:
+Audiences: To test the hypothesis, we will allocate 50% of our user base to the experiment group, while the remaining 50% will serve as the control group. This setup allows for a direct comparison between the existing design (control group) and the new variation (experiment group).
+
+Tracking using Firebase Analytics:
+
+Time spent on the "Features" page: Track the average time spent on the page for both the control and experiment groups. This metric will indicate if the new design encourages users to stay longer on the page.
+Scroll depth: Measure how far users scroll down the "Features" page. This will help determine if the new design successfully encourages users to explore more content.
+Click-through rates on feature links: Monitor the number of clicks on individual feature links to assess which features are most engaging to users.
+Variations:
+The confirmed variation we'd like to test involves redesigning the "Features" page using a tab or toggle list design to make the page shorter and more user-friendly. Users will be able to expand the content for features they are interested in, reducing the initial visual overload.
+
+
+
+Rationale:
+
+By implementing a tab or toggle list design, we aim to streamline the presentation of features, making it easier for users to find relevant information without being overwhelmed by a long list of features.
+This variation aligns with our hypothesis of addressing the bottleneck in the conversion funnel by improving the user experience on the "Features" page.
+The A/B test setup allows for a controlled comparison between the current design and the proposed variation, providing clear insights into the impact of the design change on user engagement metrics.
+
+
+
+
