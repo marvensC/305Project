@@ -11,35 +11,35 @@ Experiment - Detail out the experiment setup that you will use to test your hypo
 
 Variations - In this section, describe what variations you would like to test. Layout the design work related and add diagrams, mockups and designs related to the confirmed variation that you’d like to test.
 
-
-
-Jaiden Diaz:
-
-
 ## A/B Test Name: In-App Messaging Feature Experiment
 User Story Number: US-004
 
 Metric (from the HEART grid): Engagement
+
+
+Jaiden Diaz:
 
 Hypothesis: The problem we aim to address is the low level of engagement within study groups due to limited communication options. By introducing different features related to in-app messaging, such as real-time chat, discussion boards, and file sharing capabilities, we hypothesize that we can increase user engagement within study groups, leading to more effective collaboration and higher retention rates.
 
 Experiment:
 
 Setup: The experiment will be conducted using Firebase Remote Config to allocate 50% of users to the experimental group, where they will have access to the new in-app messaging features. The remaining 50% will serve as the control group and continue to use the existing messaging functionality. The experiment will run for a duration of two weeks to gather sufficient data.
+
 Tracking: Firebase Analytics will be utilized to track various engagement metrics, including the number of messages sent, active users within study groups, session duration, and retention rates. Custom events will be set up to monitor specific actions related to the usage of the new messaging features.
+
 Variations:
 
-Real-Time Chat:
-
+# Real-Time Chat:
 Design: Implement a real-time chat feature within study groups, allowing users to exchange messages instantly.
 Rationale: Real-time communication can facilitate quicker interactions and foster a sense of immediacy among users, potentially leading to more dynamic discussions and increased engagement.
-Discussion Boards:
 
+Discussion Boards:
 Design: Introduce discussion boards where users can post topics for discussion and participate in threaded conversations.
 Rationale: Discussion boards provide a structured platform for organizing discussions and allow users to explore topics in-depth, promoting sustained engagement and knowledge sharing within study groups.
-File Sharing Capabilities:
 
+File Sharing Capabilities:
 Design: Enable users to upload and share files, documents, and multimedia content directly within study group chats.
 Rationale: File sharing capabilities enhance collaboration by enabling users to exchange relevant resources and materials, enriching the learning experience and fostering deeper engagement within study groups.
 
 By conducting this A/B test, we aim to evaluate the impact of different in-app messaging features on user engagement within study groups and identify which features contribute most effectively to collaborative learning experiences.
+
