@@ -30,14 +30,19 @@ Tracking: Firebase Analytics will be utilized to track various engagement metric
 Variations:
 
 Real-Time Chat:
+
 Design: Implement a real-time chat feature within study groups, allowing users to exchange messages instantly.
 Rationale: Real-time communication can facilitate quicker interactions and foster a sense of immediacy among users, potentially leading to more dynamic discussions and increased engagement.
 
 Discussion Boards:
+
+
 Design: Introduce discussion boards where users can post topics for discussion and participate in threaded conversations.
 Rationale: Discussion boards provide a structured platform for organizing discussions and allow users to explore topics in-depth, promoting sustained engagement and knowledge sharing within study groups.
 
 File Sharing Capabilities:
+
+
 Design: Enable users to upload and share files, documents, and multimedia content directly within study group chats.
 Rationale: File sharing capabilities enhance collaboration by enabling users to exchange relevant resources and materials, enriching the learning experience and fostering deeper engagement within study groups.
 
