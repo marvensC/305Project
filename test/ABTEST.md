@@ -49,32 +49,33 @@ Rationale: File sharing capabilities enhance collaboration by enabling users to 
 By conducting this A/B test, we aim to evaluate the impact of different in-app messaging features on user engagement within study groups and identify which features contribute most effectively to collaborative learning experiences.
 
 
-A/B Test Name: NPS Survey Design Enhancement
-
-User Story Number: US7
-
-Metric (from the HEART grid): Satisfaction
-
 Angel Bencosme
 
-Hypothesis:
-Problem: Analysis of our Net Promoter Score (NPS) survey reveals a low response rate, indicating a potential disconnect between the survey design and user engagement.
-Impact: Low response rates in NPS surveys can hinder our ability to accurately measure customer satisfaction and loyalty, leading to potential missed opportunities for improvement and retention.
+A/B Test Name: Light and Dark Mode Preference
 
-Hypothesis: By redesigning the NPS survey layout and wording to be more visually appealing and engaging, we can increase user participation and obtain more actionable feedback.
+User Story Number: AB-005
+
+Metric (from the HEART grid): Engagement
+
+Hypothesis:
+Problem: Analysis of user preferences and feedback indicates a demand for customizable interface options, including light and dark mode.
+Impact: Users often prefer interfaces that offer customization options such as light and dark mode for better readability and reduced eye strain, which can lead to increased satisfaction and engagement.
+
+Hypothesis: By implementing light and dark mode options within our application, we can cater to users' preferences and enhance their overall experience, resulting in higher engagement levels.
 Experiment Setup using Firebase:
-Audiences: Initially, we will allocate 50% of our user base to the experiment group, while the remaining 50% will serve as the control group. This allocation ensures a fair comparison between the current NPS survey design (control) and the redesigned version (experiment).
-Rationale: Allocating only a portion of the user base allows us to gauge the impact of the new design without risking negative consequences on a larger scale. It also provides a control group for comparison, increasing the reliability of our results.
+Audiences: All users will be included in the experiment, with the light and dark mode options randomly assigned to each user upon login. This approach allows for comprehensive data collection across all user segments.
+Rationale: Including all users in the experiment ensures that we capture diverse preferences and behaviors across our user base. Random assignment of light and dark mode options helps eliminate bias and ensures fair evaluation of the impact on engagement.
 
 Tracking using Firebase Analytics:
 
-Event Tracking: Monitor user interactions with the NPS survey, including the number of users who open the survey and complete it.
-Time to Complete: Measure the average time taken by users to complete the NPS survey for both experiment and control groups.
-NPS Score: Calculate the Net Promoter Score based on responses from both experiment and control groups.
-Feedback Analysis: Analyze qualitative feedback provided by users in the NPS survey to identify common themes and areas for improvement.
+Theme Selection: Track the number of users who opt for light mode versus dark mode.
+Session Duration: Measure the average session duration for users in both the light and dark mode groups.
+Feature Usage: Monitor the usage of specific features or sections of the application by users in each theme group.
+User Feedback: Gather qualitative feedback through surveys or in-app prompts to understand users' perceptions and satisfaction with the light and dark mode options.
 Variations:
-Design Variation: Redesign the NPS survey layout and wording for improved user engagement.
+Design Variation: Implement light and dark mode options within the application settings.
 
-Description: The redesigned NPS survey will feature a more visually appealing layout with clear instructions and concise wording. Additionally, we will include visual elements such as icons or illustrations to enhance the survey's appeal and capture users' attention. The wording of the survey questions will be revised to be more conversational and user-friendly, encouraging users to provide honest and detailed feedback.
-Rationale: This variation aims to address the low response rates observed in the current NPS survey by making the survey more visually engaging and user-friendly. By improving the overall user experience of the survey, we expect to increase participation rates and obtain more valuable insights into customer satisfaction and loyalty.
+Mockup: [Insert Mockup Image/Link]
+Description: The application settings menu will include a toggle switch or dropdown menu for users to select their preferred theme – light or dark mode. Upon selection, the interface will adjust accordingly, with colors, contrast, and text readability optimized for the chosen theme. Users can easily switch between light and dark modes based on their preference or environmental conditions.
+Rationale: This variation aims to address the demand for customizable interface options and cater to users' preferences for light or dark mode. Providing this feature enhances user satisfaction and engagement by allowing them to personalize their experience and optimize readability based on their preferences.
 
