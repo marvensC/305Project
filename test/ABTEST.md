@@ -50,7 +50,9 @@ By conducting this A/B test, we aim to evaluate the impact of different in-app m
 
 
 A/B Test Name: NPS Survey Design Enhancement
+
 User Story Number: US7
+
 Metric (from the HEART grid): Satisfaction
 
 Angel Bencosme
