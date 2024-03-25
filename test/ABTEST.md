@@ -79,3 +79,39 @@ Mockup: [Insert Mockup Image/Link]
 Description: The application settings menu will include a toggle switch or dropdown menu for users to select their preferred theme – light or dark mode. Upon selection, the interface will adjust accordingly, with colors, contrast, and text readability optimized for the chosen theme. Users can easily switch between light and dark modes based on their preference or environmental conditions.
 Rationale: This variation aims to address the demand for customizable interface options and cater to users' preferences for light or dark mode. Providing this feature enhances user satisfaction and engagement by allowing them to personalize their experience and optimize readability based on their preferences.
 
+Marvens Sainterlien
+A/B Test Name: Notification vs. No Notification
+
+User Story Number: US9: A/B test-Notification vs no Notification
+
+Metric (from the HEART grid): Retention
+
+Hypothesis: The problem we aim to solve is improving user retention on our platform. We've observed a significant drop-off in user engagement after the initial sign-up phase, indicating a potential lack of ongoing interest or reminders about the platform's value proposition. We suspect that providing timely notifications to users might re-engage them and thus improve retention rates. Our hypothesis is that users who receive notifications will demonstrate higher retention rates compared to those who do not receive notifications.
+
+Experiment Setup:
+
+To test our hypothesis, we will implement an A/B test using Firebase capabilities. We will allocate 50% of our user base to the experiment group, where they will receive notifications, and the remaining 50% will serve as the control group with no notifications.
+
+Audiences: All users will be included in the experiment, but they will be randomly assigned to either the notification group or the control group. This random allocation ensures that the experiment results are not biased by any specific user segment.
+
+Tracking using Firebase Analytics:
+
+For tracking, we need to set up the following metrics:
+
+User Retention: Measure the percentage of users who continue to engage with the platform over time. This will be our primary success metric.
+Notification Interaction: Track how users interact with the notifications, including open rates and click-through rates.
+User Activity: Monitor user activity within the app, such as logins, sessions, and feature usage.
+By analyzing these metrics, we can evaluate the impact of notifications on user retention and engagement.
+
+Variations:
+
+Variation A: Notification Enabled
+Users assigned to this variation will receive push notifications at strategic intervals, reminding them of new features, updates, or personalized recommendations.
+Design Work: Mockups and designs of notification messages, including content, timing, and frequency, will be prepared. These notifications will be designed to be non-intrusive yet compelling enough to drive user engagement.
+Variation B: No Notification (Control Group)
+Users in this variation will not receive any push notifications during the experiment period.
+Design Work: No specific design changes are required for this variation as it serves as the control group.
+Experimental Design:
+
+The experiment will run for a predefined period, typically several weeks, to gather sufficient data for analysis. During this time, we will closely monitor the performance metrics for both the notification and control groups. At the end of the experiment, we will analyze the data to determine whether the presence of notifications has a statistically significant impact on user retention.
+
