@@ -1,4 +1,4 @@
-A/B Test Name:
+##**A/B Test Name:**
 User Story Number:
 Metric (from the HEART grid):
 Hypothesis: The key part of a A/B test is formulating your hypothesis as this guides the whole A/B test plan. What problem are we trying to solve? Its impact? (e.g. how big this problem is to our customers?) In formulating the hypothesis, first you need to define the problem you want to solve. For example, you are an SaaS that offers free trial and you want to improve Adoption. But that problem might be too broad to form an A/B test as you can simply test one variable in an A/B test to be effective (otherwise you won’t know which variable is causing the change). So to narrow down the problem you want to solve, you need to find out the bottle-neck in the conversion funnel – where do people drop off the most? Are there any key information or call-to-action buttons that you expect people to read/click but they didn’t? 
@@ -115,3 +115,6 @@ Experimental Design:
 
 The experiment will run for a predefined period, typically several weeks, to gather sufficient data for analysis. During this time, we will closely monitor the performance metrics for both the notification and control groups. At the end of the experiment, we will analyze the data to determine whether the presence of notifications has a statistically significant impact on user retention.
 
+
+Babatunde Fakolujo
+A/B Test Name:
