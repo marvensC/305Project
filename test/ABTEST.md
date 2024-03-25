@@ -13,8 +13,8 @@ Variations - In this section, describe what variations you would like to test. L
 
 
 
-- Jaiden Diaz
-  A/B Test Name: In-App Messaging Feature Experiment
+Jaiden Diaz:
+A/B Test Name: In-App Messaging Feature Experiment
 
 User Story Number: US-004
 
