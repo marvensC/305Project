@@ -6,7 +6,7 @@
 - To diligently track our adoption metric, we will assess the frequency of account creations and quantify the number of application downloads by our user community.
 
 ## DAU(Daily active users)
--We can monitor the Daily Active Users (DAU) of the app by leveraging Firebase backend functionalities, particularly through user authentication and login tracking.
+- We can monitor the Daily Active Users (DAU) of the app by leveraging Firebase backend functionalities, particularly through user authentication and login tracking.
 
 ## Retention
 
