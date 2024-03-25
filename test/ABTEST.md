@@ -29,7 +29,7 @@ Tracking: Firebase Analytics will be utilized to track various engagement metric
 
 Variations:
 
-# Real-Time Chat:
+Real-Time Chat:
 Design: Implement a real-time chat feature within study groups, allowing users to exchange messages instantly.
 Rationale: Real-time communication can facilitate quicker interactions and foster a sense of immediacy among users, potentially leading to more dynamic discussions and increased engagement.
 
