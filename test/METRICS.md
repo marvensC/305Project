@@ -3,6 +3,7 @@
 - In our app we can have a pop that will ask  "How likely are you to recommend our product/service to a friend or colleague?". This will be followed by a options 1-10. This pop can pop after a minute of using the application. There should be an option to never show again.
 
 ## Adoption
+- To diligently track our adoption metric, we will assess the frequency of account creations and quantify the number of application downloads by our user community.
 
 ## BAU
 
