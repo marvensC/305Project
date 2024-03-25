@@ -82,7 +82,7 @@ Rationale: This variation aims to address the demand for customizable interface 
 Marvens Sainterlien
 A/B Test Name: Notification vs. No Notification
 
-User Story Number: US9: A/B test-Notification vs no Notification
+User Story Number: US9
 
 Metric (from the HEART grid): Retention
 
