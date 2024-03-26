@@ -1,4 +1,5 @@
 {
+    "id": "38339342-9320-420a-922a-dd8a2f060883",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -201,7 +202,6 @@
             "name": "Sign_in_button"
         }
     ],
-    "id": "38339342-9320-420a-922a-dd8a2f060883",
     "thunkableVersion": 447,
     "name": "Welcome_Screen"
 }

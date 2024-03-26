@@ -1,4 +1,5 @@
 {
+    "id": "16f1ea67-693f-4c43-85b5-5cdd66c997a7",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -568,7 +569,6 @@
             "name": "login_Email_Input"
         }
     ],
-    "id": "16f1ea67-693f-4c43-85b5-5cdd66c997a7",
     "thunkableVersion": 447,
     "name": "Login_Screen"
 }

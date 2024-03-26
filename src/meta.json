@@ -33,8 +33,8 @@
                     "createdAt": "2024-03-14T14:52:11.520Z",
                     "updatedAt": "2024-03-14T14:52:11.520Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/6596389169179268817fb99e/projects/65fc3f228363cb825b66e2db/assets/65fc3f228363cb825b66e2df?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240321%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240321T140731Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0d7d2be5d0b659089fa60e470a41004ac63fb78a4cf1763fba3a30fa0427e83eff078b5fcc8b0b384c42f3398c66d5b939ec4a9482ceb2991ed6fb09a5a33902c4baff9c88f8f18fbe6625b5abe890bdfe0ab42a0131d5b7cea1245ae8f2bed6708aa35ec6183d5d608306dd0a3c2e3f060c7106ef231695a940bad0b5f82b1ae39aafef61103aee2e35e5eecd0ae8ba3ad137c1255078f8a5bf2a7d912c53fa73a6b67d6c115a45a8096c5a4f1c2a0e3b19576b94fa93db933dc87849ec73c5697dbdc76ce9957686c0f4a7de0fa5da7de2d23aa145ce30dab052a21bdb6625a6c560a33b0668325fecd6a950bc53389e2fce2d099ded5d77118a2514113ab6",
-                    "signedUrlExpirationTime": 1711202851702
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/6596389169179268817fb99e/projects/65fc3f228363cb825b66e2db/assets/65fc3f228363cb825b66e2df?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240325%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240325T165827Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=00051e058f0353cede1c114e01e27a90995838fbc05ef9a26d51d6b6ba66383a5ea36d132de2eca4a54cfedffb689328dc4371affc02a629ae05a4c8483d6346394e4229b5471c71685f31f421044d573bdd0629933ef1e4e715d55ac12dade53c9991d622d1a95a8e4b696125a4f7020eafdf59fd470326db5c2908dc240fa4761015c2d7af0fa67c57362826fb8ccfc926796a2e142d3e48743edc0e02ed99c0d2b02bc2102ee7d70a0fbb6b53a3387774f05a18d44c435753c44210b22706998ac37838d6a20c420728abcd603289701961ac45e472d73c809ac5452be6c3790efeb3c653a2ae8c1076ecb9c3fb8ba50956f3e834570174ad626d53243fc6",
+                    "signedUrlExpirationTime": 1711558707959
                 }
             },
             "backendUpgradeVersion": 24,
@@ -95,6 +95,17 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "062d2c6f-4980-4dc5-8129-2983bb35d73f": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -110,6 +121,9 @@
                     },
                     {
                         "id": "8c347ff8-8160-47b3-9d17-644e84b56ad3"
+                    },
+                    {
+                        "id": "062d2c6f-4980-4dc5-8129-2983bb35d73f"
                     },
                     {
                         "id": "8bebbc11-e531-4599-863e-eded44af15dc"
@@ -151,10 +165,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -200,10 +211,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
