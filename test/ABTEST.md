@@ -139,10 +139,25 @@ Click-through rates on feature links: Monitor the number of clicks on individual
 Variations:
 The confirmed variation we'd like to test involves redesigning the "Features" page using a tab or toggle list design to make the page shorter and more user-friendly. Users will be able to expand the content for features they are interested in, reducing the initial visual overload.
 
+Daniel Sevilla
+A/B Test Name: Gamification Elements
+
+User Story Number: US12: A/B Test: Gamification Elements
+
+Metric : Engagement - Time spent on the app per session.
+
+Hypothesis: The problem we are trying to solve is low user engagement. We hypothesize that introducing gamification elements, such as points and leaderboards, will increase the time users spend on the app per session. We believe this because gamification can make the process of studying more enjoyable and competitive, encouraging users to spend more time studying.
+
+Experiment:
+-Audiences: We will allocate 50% of our user base to the experiment to ensure a large enough sample size. The users will be randomly selected to avoid bias.
+-Tracking: We will track the time spent on the app per session using Firebase Analytics. We will also track the use of the new gamification features.
+
+Variations:
+-Control Group: The control group will use the current version of the app without any gamification elements.
+-Test Group: The test group will use a version of the app that includes gamification elements such as points for completing study sessions and a leaderboard to compare with friends.
 
 
 Rationale:
-
 By implementing a tab or toggle list design, we aim to streamline the presentation of features, making it easier for users to find relevant information without being overwhelmed by a long list of features.
 This variation aligns with our hypothesis of addressing the bottleneck in the conversion funnel by improving the user experience on the "Features" page.
 The A/B test setup allows for a controlled comparison between the current design and the proposed variation, providing clear insights into the impact of the design change on user engagement metrics.
