@@ -9,6 +9,7 @@
 - We can monitor the Daily Active Users (DAU) of the app by leveraging Firebase backend functionalities, particularly through user authentication and login tracking.
 
 ## Retention
-
+- This is the percentage of users who return to your product after their first visit or use. In our app we will meausre Retention rate by checking the DAU, MAU, Session Length and Session Interval. Our goal is to have less than 10% Retention rate for users never returning to our app
+  
 ## CTR for completion of the Golden Path
 
