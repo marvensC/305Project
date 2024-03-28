@@ -10,7 +10,6 @@
                             "translatedName": "Web API",
                             "isApi": true,
                             "reactType": "Web",
-                            "properties": {},
                             "children": [],
                             "id": "cc549dbc-4f83-4112-b0d2-9d6c3c806a8f",
                             "thunkableVersion": 450,
@@ -20,21 +19,21 @@
                 }
             },
             "assets": {
-                "65fc3f228363cb825b66e2df": {
+                "66057add5fc4ea481f16bcb5": {
                     "name": "studysync-high-resolution-logo.png",
                     "originalname": "studysync-high-resolution-logo.png",
                     "externalStorageType": "GCS",
-                    "externalName": "users/6596389169179268817fb99e/projects/65fc3f228363cb825b66e2db/assets/65fc3f228363cb825b66e2df",
-                    "backendURI": "/project/65fc3f228363cb825b66e2db/getasset/65fc3f228363cb825b66e2df",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66057add5fc4ea481f16bcb2/assets/66057add5fc4ea481f16bcb5",
+                    "backendURI": "/project/66057add5fc4ea481f16bcb2/getasset/66057add5fc4ea481f16bcb5",
                     "size": "48513",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "_id": "65fc3f228363cb825b66e2df",
+                    "_id": "66057add5fc4ea481f16bcb5",
                     "createdAt": "2024-03-14T14:52:11.520Z",
                     "updatedAt": "2024-03-14T14:52:11.520Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/6596389169179268817fb99e/projects/65fc3f228363cb825b66e2db/assets/65fc3f228363cb825b66e2df?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240325%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240325T165827Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=00051e058f0353cede1c114e01e27a90995838fbc05ef9a26d51d6b6ba66383a5ea36d132de2eca4a54cfedffb689328dc4371affc02a629ae05a4c8483d6346394e4229b5471c71685f31f421044d573bdd0629933ef1e4e715d55ac12dade53c9991d622d1a95a8e4b696125a4f7020eafdf59fd470326db5c2908dc240fa4761015c2d7af0fa67c57362826fb8ccfc926796a2e142d3e48743edc0e02ed99c0d2b02bc2102ee7d70a0fbb6b53a3387774f05a18d44c435753c44210b22706998ac37838d6a20c420728abcd603289701961ac45e472d73c809ac5452be6c3790efeb3c653a2ae8c1076ecb9c3fb8ba50956f3e834570174ad626d53243fc6",
-                    "signedUrlExpirationTime": 1711558707959
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66057add5fc4ea481f16bcb2/assets/66057add5fc4ea481f16bcb5?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240328%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240328T141420Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=47a24428f88d70d19ce195d82e320cbbf6245ffd82a6b37613c17374dd13cc2e866cb749fd1c6146880115def0e16595dfc42bce76cca4d48a4cf88618a8a01f51638f1afea72f2c0bc5ca2b69cfd71947f78a7ad43819a82cbe613d36bbb403a75b0402f56e02cdc684a30ea446e77759be4a2d5308e29b2b04e936e782397340ba0c75c51fceb23a9bef47da1727198b497add9d3b33958f1df5e2b61e5dc06a489debaf1b84cedf620260514b13e3bd62ef5525f4e6c440ae3078777433a01e5f8537f2beb9f9dc089e6af05dc351626c33ba2e7ee388f0e0dcc77f7fcbc7388d7fa18dce6c5fbf693c71495a7abff4097cc7f57e2dc39b4a4cfe38feed65",
+                    "signedUrlExpirationTime": 1711808060983
                 }
             },
             "backendUpgradeVersion": 24,
@@ -95,17 +94,6 @@
                         "location": true,
                         "iap": false
                     }
-                },
-                "062d2c6f-4980-4dc5-8129-2983bb35d73f": {
-                    "xml": "",
-                    "permissions": {
-                        "android": [],
-                        "ios": []
-                    },
-                    "enabledFeatures": {
-                        "location": true,
-                        "iap": false
-                    }
                 }
             },
             "categories": [
@@ -123,14 +111,14 @@
                         "id": "8c347ff8-8160-47b3-9d17-644e84b56ad3"
                     },
                     {
-                        "id": "062d2c6f-4980-4dc5-8129-2983bb35d73f"
+                        "id": "8bebbc11-e531-4599-863e-eded44af15dc"
                     },
                     {
-                        "id": "8bebbc11-e531-4599-863e-eded44af15dc"
+                        "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792"
                     }
                 ]
             },
-            "figmaComponents": {},
+            "figmaComponents": null,
             "description": null,
             "icon": null,
             "projectName": "StudySync copy1",
@@ -145,8 +133,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "AIzaSyBnXyRKOGRFpi-Zk6Gk9Ac5YB_2b7mBcI4",
-                "firebaseDatabaseURL": "https://csc305project-3b5d8-default-rtdb.firebaseio.com/",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
                 "stripePublishableKeyTest": "",
                 "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
@@ -165,7 +153,10 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -191,8 +182,8 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "AIzaSyBnXyRKOGRFpi-Zk6Gk9Ac5YB_2b7mBcI4",
-                "firebaseDatabaseURL": "https://csc305project-3b5d8-default-rtdb.firebaseio.com/",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
                 "stripePublishableKeyTest": "",
                 "stripePublishableKeyLive": "",
                 "stripeAccountId": null,
@@ -211,7 +202,10 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
