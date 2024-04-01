@@ -376,7 +376,8 @@
                 "ParentId": "8c347ff8-8160-47b3-9d17-644e84b56ad3",
                 "position": "absolute",
                 "edgeOffsets": 208,
-                "placeholder": "Confirm Password"
+                "placeholder": "Confirm Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "94eef30c-e423-4d69-b7a8-4e7d0fc6eecc",
@@ -442,7 +443,7 @@
                 "position": "absolute",
                 "edgeOffsets": 153,
                 "placeholder": "Password",
-                "secureTextEntry": false
+                "secureTextEntry": true
             },
             "children": [],
             "id": "d15387b9-aebc-4d10-9f48-2a0fa1c844a7",

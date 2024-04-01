@@ -52,14 +52,15 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
+                "Picture": "studysync-high-resolution-logo.png",
                 "resizeMode": "stretch",
-                "Height": 173,
-                "Width": 184,
+                "Height": 274,
+                "Width": 270,
                 "Visible": true,
-                "X": 95,
-                "Y": 196,
-                "RelativeX": 95,
-                "RelativeY": 196,
+                "X": 52,
+                "Y": 83,
+                "RelativeX": 52,
+                "RelativeY": 83,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -79,18 +80,18 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "38.853328450520834%",
-                    "top": "32.1308095952024%",
+                    "left": "19.253336588541668%",
+                    "top": "10.494752623688155%",
                     "display": "flex"
                 },
+                "capInsets": {},
                 "ParentId": "38339342-9320-420a-922a-dd8a2f060883",
                 "position": "absolute",
-                "edgeOffsets": 196,
-                "Picture": "studysync-high-resolution-logo.png"
+                "edgeOffsets": 83
             },
             "children": [],
-            "id": "327fb139-c679-47dc-85dc-4b169cb6f468",
-            "thunkableVersion": 447,
+            "id": "4250cf1d-ef1b-46a1-ab02-83c36a87ded6",
+            "thunkableVersion": 450,
             "name": "Image1"
         },
         {
