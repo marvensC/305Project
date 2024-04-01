@@ -1,4 +1,5 @@
 {
+    "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -44,9 +45,59 @@
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true
+        "isSimple": true,
+        "navigationOptions": {
+            "drawerLabel": "Friends"
+        }
     },
     "children": [
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "menu-lines.jpg",
+                "resizeMode": "stretch",
+                "Height": 36,
+                "Width": 44,
+                "Visible": true,
+                "X": 14.800000190734863,
+                "Y": 20.80000114440918,
+                "RelativeX": 14.800000190734863,
+                "RelativeY": 20.80000114440918,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "49.65333658854167%",
+                    "top": "70.61469265367316%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "8bebbc11-e531-4599-863e-eded44af15dc",
+                "position": "absolute",
+                "edgeOffsets": 20.80000114440918
+            },
+            "children": [],
+            "id": "d4ccbe45-7c26-405c-a2db-5dca2883dc04",
+            "thunkableVersion": 450,
+            "bindings": null,
+            "name": "menu1"
+        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -166,60 +217,6 @@
             "name": "Text_Input2"
         },
         {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Home",
-                "TextColor": "#FFFFFF",
-                "FontSize": 16,
-                "Font": "",
-                "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 27,
-                "Width": 53,
-                "Visible": true,
-                "X": 315,
-                "Y": 0,
-                "RelativeX": 315,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "67.6%",
-                    "top": "2.3238380809595203%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "8c3a7e32-5a0a-48eb-949e-96e17d97d792",
-                "position": "absolute",
-                "edgeOffsets": 0
-            },
-            "children": [],
-            "id": "978a9ecd-e2b7-4c7b-9758-0dc86477c2cc",
-            "thunkableVersion": 450,
-            "name": "Return_Home"
-        },
-        {
             "type": "List Viewer",
             "translatedName": "Simple List",
             "reactType": "ListView",
@@ -288,10 +285,10 @@
                 "Height": 53,
                 "Width": 191,
                 "Visible": true,
-                "X": 7,
-                "Y": 0,
-                "RelativeX": 7,
-                "RelativeY": 0,
+                "X": 91,
+                "Y": 11,
+                "RelativeX": 91,
+                "RelativeY": 11,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(74, 144, 226, 1)",
@@ -333,7 +330,7 @@
                 },
                 "ParentId": "8c3a7e32-5a0a-48eb-949e-96e17d97d792",
                 "position": "absolute",
-                "edgeOffsets": 0,
+                "edgeOffsets": 11,
                 "children": "Your Friends"
             },
             "children": [],
@@ -342,7 +339,6 @@
             "name": "Friend_Label"
         }
     ],
-    "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792",
     "thunkableVersion": 450,
     "name": "Friend_Screen"
 }
