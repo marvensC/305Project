@@ -39,21 +39,14 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
         "navigationOptions": {
-            "headerStyle": {},
             "drawerLabel": "Sign Out"
         },
-        "tabNavigationOptions": {},
         "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
@@ -93,7 +86,6 @@
                     "top": "70.61469265367316%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "8bebbc11-e531-4599-863e-eded44af15dc",
                 "position": "absolute",
                 "edgeOffsets": 27.999999999999993
@@ -213,7 +205,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 15,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -322,7 +313,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
