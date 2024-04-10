@@ -1,4 +1,5 @@
 {
+    "id": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -255,7 +256,7 @@
                     "properties": {
                         "Value": 0,
                         "Count": "10",
-                        "Icon": "ios-star",
+                        "Icon": "star",
                         "Visible": true,
                         "Direction": "row",
                         "ReadOnly": false,
@@ -464,7 +465,6 @@
             "name": "signOut_Button1"
         }
     ],
-    "id": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
     "thunkableVersion": 450,
     "name": "signOut_Screen1"
 }
