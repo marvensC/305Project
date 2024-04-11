@@ -146,6 +146,17 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "95c9d66a-9557-418e-b29c-cbadbc858cf5": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -195,7 +206,13 @@
                                 "id": "8bebbc11-e531-4599-863e-eded44af15dc"
                             },
                             {
+                                "id": "a8ba9bca-91f7-4773-97e6-0af7462d9d15"
+                            },
+                            {
                                 "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792"
+                            },
+                            {
+                                "id": "95c9d66a-9557-418e-b29c-cbadbc858cf5"
                             },
                             {
                                 "id": "c57c48a4-c442-4a88-992c-3ccf5dd63730"
@@ -206,7 +223,7 @@
                         "name": "Drawer_Navigator1"
                     },
                     {
-                        "id": "a8ba9bca-91f7-4773-97e6-0af7462d9d15"
+                        "id": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
                     }
                 ]
             },
