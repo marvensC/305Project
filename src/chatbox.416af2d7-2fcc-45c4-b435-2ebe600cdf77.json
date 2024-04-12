@@ -1,4 +1,5 @@
 {
+    "id": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -51,7 +52,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundPicture": "layered-waves-haikei.png"
     },
     "children": [
         {
@@ -63,14 +65,14 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 32,
-                "Width": 70,
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
+                "Height": 38,
+                "Width": 78,
                 "Visible": true,
-                "X": 291,
-                "Y": 573,
-                "RelativeX": 291,
-                "RelativeY": 573,
+                "X": 290,
+                "Y": 570,
+                "RelativeX": 290,
+                "RelativeY": 570,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -93,7 +95,8 @@
                     "position": "absolute",
                     "left": "69.60000406901041%",
                     "top": "81.22938805255575%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -101,7 +104,7 @@
                 "Disabled": false,
                 "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
                 "position": "absolute",
-                "edgeOffsets": 573
+                "edgeOffsets": 570
             },
             "children": [],
             "id": "bf8c6f23-6ea2-4d98-9df2-6d3588fb9fa3",
@@ -117,10 +120,10 @@
                 "Height": 39,
                 "Width": 277,
                 "Visible": true,
-                "X": 0,
-                "Y": 569,
-                "RelativeX": 0,
-                "RelativeY": 569,
+                "X": 8,
+                "Y": 570,
+                "RelativeX": 8,
+                "RelativeY": 570,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -165,7 +168,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
                 "position": "absolute",
-                "edgeOffsets": 569,
+                "edgeOffsets": 570,
                 "placeholder": "Type message here"
             },
             "children": [],
@@ -179,17 +182,17 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsColor": "rgba(74, 144, 226, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
                 "ShowArrow": true,
-                "Height": 263,
-                "Width": 378,
+                "Height": 265,
+                "Width": 366,
                 "Visible": true,
-                "X": -1,
-                "Y": 285,
-                "RelativeX": -1,
-                "RelativeY": 285,
+                "X": 4,
+                "Y": 300,
+                "RelativeX": 4,
+                "RelativeY": 300,
                 "ResizeMode": "STRETCH",
                 "Justification": "center",
                 "Alignment": "center",
@@ -219,7 +222,7 @@
                 },
                 "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
                 "position": "absolute",
-                "edgeOffsets": 285.8000183105469
+                "edgeOffsets": 300
             },
             "children": [],
             "id": "845cf020-89e1-443e-9af2-4f08e54d71e1",
@@ -332,13 +335,13 @@
                     "type": "Image",
                     "translatedName": "Image",
                     "properties": {
-                        "Picture": "studysync-high-resolution-logo.png",
+                        "Picture": "studysync-high-resolution-logo-transparent.png",
                         "resizeMode": "stretch",
-                        "Height": 311,
-                        "Width": "Fill container",
+                        "Height": 290,
+                        "Width": 290,
                         "Visible": true,
-                        "X": null,
-                        "Y": null,
+                        "X": 0,
+                        "Y": 134,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -360,7 +363,10 @@
                             "display": "flex"
                         },
                         "capInsets": {},
-                        "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
+                        "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
+                        "edgeOffsets": 134.5,
+                        "RelativeX": 0,
+                        "RelativeY": 134
                     },
                     "children": [],
                     "id": "84bf75b8-0935-4627-afef-8db265d02709",
@@ -373,7 +379,6 @@
             "name": "Layout1"
         }
     ],
-    "id": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
     "thunkableVersion": 452,
     "name": "chatbox"
 }
