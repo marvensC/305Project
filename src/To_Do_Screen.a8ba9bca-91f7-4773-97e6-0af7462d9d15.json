@@ -1,4 +1,5 @@
 {
+    "id": "a8ba9bca-91f7-4773-97e6-0af7462d9d15",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -47,22 +48,23 @@
         "BackgroundColor": "rgba(255, 255, 255, 1)",
         "navigationOptions": {
             "drawerLabel": "Todo List "
-        }
+        },
+        "BackgroundPicture": "layered-waves-haikei.png"
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "menu-lines.jpg",
+                "Picture": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
                 "resizeMode": "stretch",
-                "Height": 36,
-                "Width": 44,
+                "Height": 40,
+                "Width": 48,
                 "Visible": true,
                 "X": 10,
-                "Y": 21,
+                "Y": 16,
                 "RelativeX": 10,
-                "RelativeY": 21,
+                "RelativeY": 16,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -89,7 +91,7 @@
                 "capInsets": {},
                 "ParentId": "8bebbc11-e531-4599-863e-eded44af15dc",
                 "position": "absolute",
-                "edgeOffsets": 21.999999999999993
+                "edgeOffsets": 16
             },
             "children": [],
             "id": "798dc986-011f-48e0-badb-124b0889e64c",
@@ -170,7 +172,7 @@
                 "FontSize": 15,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
                 "Height": 48,
                 "Width": 93,
                 "Visible": true,
@@ -200,7 +202,8 @@
                     "position": "absolute",
                     "left": "54.8%",
                     "top": "1.4535700899550226%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -221,7 +224,7 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(0, 0, 0, 1)",
+                "TextItemsColor": "rgba(74, 144, 226, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
                 "ShowArrow": true,
@@ -274,23 +277,23 @@
             "reactType": "Text",
             "properties": {
                 "Text": "Your Goals for the day!",
-                "FontSize": 27,
-                "Font": "",
+                "FontSize": 30,
+                "Font": "Abril Fatface",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(74, 144, 226, 1)",
                 "FontWeight": "bold",
-                "Height": 69,
-                "Width": 290,
+                "Height": 71,
+                "Width": 233,
                 "Visible": true,
-                "X": 61,
-                "Y": 33,
-                "RelativeX": 61,
-                "RelativeY": 33,
+                "X": 71,
+                "Y": 28,
+                "RelativeX": 71,
+                "RelativeY": 28,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(74, 144, 226, 1)",
-                    "fontSize": 27,
+                    "fontSize": 30,
                     "fontStyle": "normal",
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
@@ -324,13 +327,15 @@
                     "lineHeight": 1,
                     "display": "flex",
                     "fontWeight": "bold",
-                    "backgroundColor": "rgba(255, 255, 255, 1)"
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "textAlign": "center"
                 },
                 "ParentId": "a8ba9bca-91f7-4773-97e6-0af7462d9d15",
                 "position": "absolute",
-                "edgeOffsets": 33,
+                "edgeOffsets": 28,
                 "children": "Your Goals for the day!",
-                "BackgroundColor": "rgba(255, 255, 255, 1)"
+                "BackgroundColor": "rgba(0, 0, 0, 0)",
+                "TextAlign": "center"
             },
             "children": [],
             "id": "f3f34a56-7f97-4ff5-8979-590cb00e2265",
@@ -338,7 +343,6 @@
             "name": "Label3"
         }
     ],
-    "id": "a8ba9bca-91f7-4773-97e6-0af7462d9d15",
     "thunkableVersion": 452,
     "name": "To_Do_Screen"
 }

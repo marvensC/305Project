@@ -35,8 +35,8 @@
                     "createdAt": "2024-04-01T01:09:21.511Z",
                     "updatedAt": "2024-04-01T01:09:21.511Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/661715f75b735c2eb1b3b7a5/assets/661715f75b735c2eb1b3b7a8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240410%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240410T224304Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4d2333a34694ade3bb443c00a013b3e17289aed696f734cff3e199f6967799a15635d5895d6c80edf240dde8a8c90caeebcc8a6dfec6007cf47c3efe10935b0780343439ba336587ad2b145b6324275fb7a14570c4831e3d89eb900dad4bf74726dfb00f0a52f3715d40a8fa7d44fee3bef8a1004d54236b9365f74caaadcb25e0ce4d984afc4073c149b83a664dbaf6b1c167bc8914b4ca446a7c32650f75525e7d581ed86bf692c372388c4b02dc9ba1809c071ef26b9b8a6378f798f431bd688f25788c1a1f56bce7fb89a6efdda338caef5d6284df77f149d7c40900ad6dc6c42a20b28a4d202697f6064466937c1f71f4b16e5b89a5183ad1572ccf0bb0",
-                    "signedUrlExpirationTime": 1712961784521
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/661715f75b735c2eb1b3b7a5/assets/661715f75b735c2eb1b3b7a8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T012110Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1594f55dcee86e15e0a0f764572388fe1a54bbae6234a5924ac85637f879260eeb819c22ce0d7b54ac11e230ba2b29f6cd76eda9b6514a3bb3dd240c2ffd14b0d8452e4d04e68fe3bfe4ecebb1402b5ac5ace97977eeed89c3ea87a32d045a81941c8c6e9628662a8d382607a653aa386a4797ac296a32a69df84a142f0e079b7b720629c7ca07de1fda4c40a5293a9d28579037d603b2e633d7e9762a0fb0d39e1355613d376712c0ea6c9021c23173fcae919af0489d931af2d7281f8d2088f71044b61d2835a5a23b96e48a74bb8ff5e4ca65e62862509af74461fe2d918b6cd0774cedb29c0c5ccb9e7a6d4eeeacbdc2675a604ae8031211dd6569f1d4d6",
+                    "signedUrlExpirationTime": 1713057670771
                 },
                 "661715f75b735c2eb1b3b7aa": {
                     "name": "studysync-high-resolution-logo.png",
@@ -51,8 +51,88 @@
                     "createdAt": "2024-04-01T01:13:12.485Z",
                     "updatedAt": "2024-04-01T01:13:12.485Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/661715f75b735c2eb1b3b7a5/assets/661715f75b735c2eb1b3b7aa?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240410%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240410T224304Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=a0324117c62273a299e581cfd632c61efc8e34990c329137e466b0bf70fa9561109f91142c39bba9e06faa632606f5d3c9c10425dccf8bcbf6503aa427a9ad56300c516f3b485a13088fd886c795d48c34a634a31eab75983404fec19285d1ceb661a024e6f8e7d571fe4856292cd9eb9d65acb586fc9775cf401038f16dba45e56fb81ac22c82490a4e879fe7c140a54fc79bccb3712d96c09d3691053f544fd12f742cf55871ff1ffe18b5c62075e79e5a5c178457586e01f7b950cbed68dc289521e197d0daeda6f962a6a194bbd1e2527f7cace983600dda61dc3350e1894d82b3b42fd00ecdfc180403c17f28ad30f5f8f3ffeff72dbcaf9a524793d936",
-                    "signedUrlExpirationTime": 1712961784524
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/661715f75b735c2eb1b3b7a5/assets/661715f75b735c2eb1b3b7aa?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T012110Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7cc497e69951e209764160e5bbbdcafb991374577adf6db6321e4c0df0d65c50f532acb0ba2e83f9bf1f71305e594cb08ab7e23a9a979856afc91de4e583d4cbcc20f6b4ef615ead0a749620d09b328bd2f60e172d02aec3361d0de702e0a35638b03e56a105e1fb3424116c6923a0267224ca379f5c4cebbd23dbf746eeb9e482fcca8a39e7377af264e8dd367666bcd9f29349f67acfe76b45017ca85311245493bc11fb5d281c7e15aa2e08b4dde168d5aefc2f66ce26a30343e9d552e53493062a160b3938c69389fc1dec5aaafa5f7f92587f93856b52d5e160e6dde9194288160d724ea9edfa291d8b005da07e53fef117ec20baab4c32698501fab647",
+                    "signedUrlExpirationTime": 1713057670774
+                },
+                "66188aa7700f96b0c8b37a86": {
+                    "externalStorageType": "GCS",
+                    "_id": "66188aa7700f96b0c8b37a86",
+                    "size": "41796",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "blob-scene-haikei.png",
+                    "backendURI": "/project/65f84ea4a1bc6c1ab98f4408/getasset/66188aa7700f96b0c8b37a86",
+                    "name": "blob-scene-haikei.png",
+                    "externalName": "users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188aa7700f96b0c8b37a86",
+                    "createdAt": "2024-04-12T01:13:11.707Z",
+                    "updatedAt": "2024-04-12T01:13:11.707Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188aa7700f96b0c8b37a86?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T011311Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=2653953f067b02e197ca4a756f7c7cbafae848cc98e19b80b95410c3b07e14e34eb9c39fbd0f7c09599359c044922c13d2d5934245c438ad2193ad7d52751da9b14670441dfab25c3cfb5366909c29b24196e5cfa54e7829d4ec6e66a69fb8805752d3578c113e147fcf75fabd57ad117b0bc1f9fb982573d81a3d2263e74acefdad94ec956dfffc95c0171826846e3d289dec1e8fc57423ffd3620c4649d9d4b3c18d51beac9f05fef4e6d0cbc9419b8cc173256c0889f5e7129db50fe541917ca8c27b6c870f90ebec0debda7245ef3e195a661ba87fad62ead682b42e34dfe3c8fe23b6e4ea81680c901b4647bc7d42367d3e6295d7c32c5ad739829d17b5",
+                    "signedUrlExpirationTime": 1713057191713
+                },
+                "66188ad5385e32e3352f2312": {
+                    "externalStorageType": "GCS",
+                    "_id": "66188ad5385e32e3352f2312",
+                    "size": "62757",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "studysync-high-resolution-logo-transparent.png",
+                    "backendURI": "/project/65f84ea4a1bc6c1ab98f4408/getasset/66188ad5385e32e3352f2312",
+                    "name": "studysync-high-resolution-logo-transparent.png",
+                    "externalName": "users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188ad5385e32e3352f2312",
+                    "createdAt": "2024-04-12T01:13:57.526Z",
+                    "updatedAt": "2024-04-12T01:13:57.526Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188ad5385e32e3352f2312?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T011357Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=774ab35f56823d4021070c5bae4e053df6f6654d80620b88e8a67316a484e0e8b8c3124712795da9f3b2ccb02b1deb584edc2386d829b98f79d733127f21caa1dd96d59063c9d947fab3a7060f2803b07544f6e6d283af212ae06d2a6c2efac8b7ac2210deb79cc06d07f60d3f72d21d39c0dd1fff86272e224e47c86c7c9b192d075ec1a8f0fce7bffbad7843f693bf439402085f232f3ac7e33d873d130612fad315cc91b870cf772d0fdd7be0745d166126fe04e5dcf831ed93f6315615d313f61b5d668cb913496143f6b4b1203b12b47d67a8121c0148c1a3948a166510e5f5b84b88d430bb86bd3241cf57ca6ae113e4fb816140f3f1b66a3724039145",
+                    "signedUrlExpirationTime": 1713057237695
+                },
+                "66188cd8700f96b0c8b4f364": {
+                    "externalStorageType": "GCS",
+                    "_id": "66188cd8700f96b0c8b4f364",
+                    "size": "34286",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "layered-waves-haikei.png",
+                    "backendURI": "/project/65f84ea4a1bc6c1ab98f4408/getasset/66188cd8700f96b0c8b4f364",
+                    "name": "layered-waves-haikei.png",
+                    "externalName": "users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188cd8700f96b0c8b4f364",
+                    "createdAt": "2024-04-12T01:22:32.931Z",
+                    "updatedAt": "2024-04-12T01:22:32.931Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/66188cd8700f96b0c8b4f364?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T012232Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=ac0ebea4f9dd77c2d89a4353c4906d906db0aab9314b6f0d94793d2eb8f610b965543593a643b5589fddbd534b23729420ab41f1ba6517d4a1f4b13458491cc3cc7a56e19ccf0ac996c0d56056f5bf6e23b092871d99f29c287f5c077265626f67f1806d91eebc6c40ad2018623e609a585758f32593496c9ab64778126d8338e882f97a4207eb6ffe9c5f9694d64df0a885d8ff5dd6402add17bfc7477e6bc753744db853716a71ca89780e002a47dabbd37a7c015945d0d97ccf18b2f238c8e14afabf83b6da028b4ab02d70dc6625652d1ad81d9f2d075b03c24e495a5f8082fd1bde157596be05608cfb9eee97b47eddee395bf4bcb2e3b2f3f67cd1481a",
+                    "signedUrlExpirationTime": 1713057752937
+                },
+                "6618ad03f5a577e9fc22106c": {
+                    "externalStorageType": "GCS",
+                    "_id": "6618ad03f5a577e9fc22106c",
+                    "size": "8784",
+                    "mimetype": "image/jpeg",
+                    "encoding": "7bit",
+                    "originalname": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
+                    "backendURI": "/project/65f84ea4a1bc6c1ab98f4408/getasset/6618ad03f5a577e9fc22106c",
+                    "name": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
+                    "externalName": "users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/6618ad03f5a577e9fc22106c",
+                    "createdAt": "2024-04-12T03:39:47.835Z",
+                    "updatedAt": "2024-04-12T03:39:47.835Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/6618ad03f5a577e9fc22106c?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T033947Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=49665150ab3d3ea6b99058b810f5bc257ef6fc772d32908b86d54d3ef07dd8811a992d534ed26a3e2c5e07583bd93c20284c88213a7b83046f3b11555a618f4ef48632447bc769da002f03341c92ba8c80042b41021de261b265130a391651e2b54ce42ef25a60c4863626acd3a347b4a0e678ebfec7c80999755a2ed22fa5dbfec51bf6717b99bec1e9e2b470178d06a734f93849974605cca98e1a2773ff26646eed864e64becf179fea54c8085e8ac9f1dbd2e2f56dafd5d1561242c357c1c43417068ea91ee925edefa25be2d6ca54ac6d9e9764a2f3ac92fd1124539ac0a82ee79fc566b537c54d93845f96090643d9c26c37c766b8a4481948f088dc5b",
+                    "signedUrlExpirationTime": 1713065987861
+                },
+                "6618df33700f96b0c8e59e74": {
+                    "externalStorageType": "GCS",
+                    "_id": "6618df33700f96b0c8e59e74",
+                    "size": "58604",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "layered-peaks-haikei.png",
+                    "backendURI": "/project/65f84ea4a1bc6c1ab98f4408/getasset/6618df33700f96b0c8e59e74",
+                    "name": "layered-peaks-haikei.png",
+                    "externalName": "users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/6618df33700f96b0c8e59e74",
+                    "createdAt": "2024-04-12T07:13:56.034Z",
+                    "updatedAt": "2024-04-12T07:13:56.034Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/659e45474927473c12d25461/projects/65f84ea4a1bc6c1ab98f4408/assets/6618df33700f96b0c8e59e74?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240412%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240412T071356Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=061d203ad870dc7e7dabafc396468255f7b8bd76efb24dad877efc07f4b0a020fad6c0d2ca6984c1cc28e8c56071872bf6f7344a9cb4fa9a6b76d0e02bf0d141471794f33cfdeff37c860c0d36677a26f7c3add753dd194297cc567eddb4d0219348c9d112f11e27d470b84391a42be2baed8d48397d5338853210f7019eae6a5019b5ad56f9d8ef5516c2156b24f632d51892be8a801fc6b69ae50797a35c2dd03e962ef740e6ebff5e33392cb909ed06039d816e110354b00d7c5dfbf8e661cc9604b32a315ff2763f9149cb4a46742cf417168bf0b86c71ba85db10382e277762bc0e7eafb3ee9a87f8390832af19a10162dd19f5d012b68228a0af84933b",
+                    "signedUrlExpirationTime": 1713078836039
                 }
             },
             "backendUpgradeVersion": 25,
@@ -157,7 +237,19 @@
                         "location": true,
                         "iap": false
                     }
-                }
+                },
+                "3b500bbd-99d7-4c03-b389-fe563cc18e1e": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "416af2d7-2fcc-45c4-b435-2ebe600cdf77": {}
             },
             "categories": [
                 "Social Networking"
@@ -210,6 +302,9 @@
                             },
                             {
                                 "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792"
+                            },
+                            {
+                                "id": "3b500bbd-99d7-4c03-b389-fe563cc18e1e"
                             },
                             {
                                 "id": "95c9d66a-9557-418e-b29c-cbadbc858cf5"
