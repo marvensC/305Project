@@ -1,4 +1,5 @@
 {
+    "id": "3b500bbd-99d7-4c03-b389-fe563cc18e1e",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -345,7 +346,6 @@
             "name": "Image3"
         }
     ],
-    "id": "3b500bbd-99d7-4c03-b389-fe563cc18e1e",
     "thunkableVersion": 452,
     "name": "Group_Screen"
 }
