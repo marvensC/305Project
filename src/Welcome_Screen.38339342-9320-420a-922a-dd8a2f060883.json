@@ -45,21 +45,24 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
+        "Scrollable": false,
+        "BackgroundPicture": "layered-waves-haikei.png"
     },
     "children": [
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
+                "Picture": "studysync-high-resolution-logo-transparent.png",
                 "resizeMode": "stretch",
-                "Height": 173,
-                "Width": 184,
+                "Height": 284,
+                "Width": 291,
                 "Visible": true,
-                "X": 95,
-                "Y": 196,
-                "RelativeX": 95,
-                "RelativeY": 196,
+                "X": 42,
+                "Y": 71,
+                "RelativeX": 42,
+                "RelativeY": 71,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -79,18 +82,17 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "38.853328450520834%",
-                    "top": "32.1308095952024%",
+                    "left": "19.253336588541668%",
+                    "top": "10.494752623688155%",
                     "display": "flex"
                 },
                 "ParentId": "38339342-9320-420a-922a-dd8a2f060883",
                 "position": "absolute",
-                "edgeOffsets": 196,
-                "Picture": "studysync-high-resolution-logo.png"
+                "edgeOffsets": 71
             },
             "children": [],
-            "id": "327fb139-c679-47dc-85dc-4b169cb6f468",
-            "thunkableVersion": 447,
+            "id": "4250cf1d-ef1b-46a1-ab02-83c36a87ded6",
+            "thunkableVersion": 450,
             "name": "Image1"
         },
         {
@@ -102,14 +104,14 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 32,
-                "Y": 521,
-                "RelativeX": 32,
-                "RelativeY": 521,
+                "X": 31,
+                "Y": 545,
+                "RelativeX": 31,
+                "RelativeY": 545,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -132,7 +134,10 @@
                     "position": "absolute",
                     "left": "45.19999593098958%",
                     "top": "84.60457271364318%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderColor": "rgba(1, 1, 1, 1)",
+                    "borderStyle": "solid",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -140,7 +145,7 @@
                 "Disabled": false,
                 "ParentId": "38339342-9320-420a-922a-dd8a2f060883",
                 "position": "absolute",
-                "edgeOffsets": 521
+                "edgeOffsets": 545
             },
             "children": [],
             "id": "ce1794e1-f6c6-400d-a3da-2fea0edfaadf",
@@ -156,14 +161,14 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 32,
-                "Y": 450,
-                "RelativeX": 32,
-                "RelativeY": 450,
+                "X": 31,
+                "Y": 469,
+                "RelativeX": 31,
+                "RelativeY": 469,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -186,7 +191,8 @@
                     "position": "absolute",
                     "left": "40.39999593098958%",
                     "top": "49.82196401799101%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -194,7 +200,7 @@
                 "Disabled": false,
                 "ParentId": "38339342-9320-420a-922a-dd8a2f060883",
                 "position": "absolute",
-                "edgeOffsets": 450
+                "edgeOffsets": 469
             },
             "children": [],
             "id": "9ca879e8-7ca4-487f-8c57-2c9eab1f4b0a",

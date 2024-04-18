@@ -6,6 +6,77 @@
                     "id": "ApiContainer",
                     "children": [
                         {
+                            "type": "Alert",
+                            "translatedName": "Alert",
+                            "isApi": true,
+                            "properties": {
+                                "Title": "noRoomAlert",
+                                "Message": "No room with this key!",
+                                "ConfirmButton": {
+                                    "Text": "Confirm"
+                                },
+                                "CancelButton": {
+                                    "Text": "Cancel"
+                                }
+                            },
+                            "children": [],
+                            "id": "67fdfaa9-1860-4cab-b9b5-33df587cc0dd",
+                            "thunkableVersion": 453,
+                            "name": "Alert2"
+                        },
+                        {
+                            "type": "Timer",
+                            "translatedName": "Timer",
+                            "isApi": true,
+                            "properties": {
+                                "TimeInSeconds": 3000,
+                                "TimeInMilliseconds": 3000,
+                                "IntervalMilliseconds": 3000,
+                                "Interval": {
+                                    "time": 5,
+                                    "timePeriod": "SECONDS"
+                                },
+                                "CountUp": false,
+                                "Loops": false,
+                                "Enabled": false
+                            },
+                            "children": [],
+                            "id": "a7321b44-885c-4ec6-8794-4bd39b427f4c",
+                            "thunkableVersion": 453,
+                            "name": "Timer1"
+                        },
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://us-central1-csc305project-3b5d8.cloudfunctions.net/"
+                            },
+                            "children": [],
+                            "id": "2cfad557-0ee1-411e-98e8-f951ec6ceb5b",
+                            "thunkableVersion": 453,
+                            "name": "Web_API2"
+                        },
+                        {
+                            "type": "Alert",
+                            "translatedName": "Alert",
+                            "isApi": true,
+                            "properties": {
+                                "Title": "Name or RoomKey Not Entered",
+                                "ConfirmButton": {
+                                    "Text": "Confirm"
+                                },
+                                "CancelButton": {
+                                    "Text": "Cancel"
+                                }
+                            },
+                            "children": [],
+                            "id": "070ae12c-fa6d-43f2-852d-edea63779ef8",
+                            "thunkableVersion": 453,
+                            "name": "Alert1"
+                        },
+                        {
                             "type": "Web API",
                             "translatedName": "Web API",
                             "isApi": true,
@@ -13,30 +84,129 @@
                             "children": [],
                             "id": "cc549dbc-4f83-4112-b0d2-9d6c3c806a8f",
                             "thunkableVersion": 450,
-                            "name": "Web_API1"
+                            "name": "Web_API1",
+                            "properties": {
+                                "URL": "https://us-central1-csc305project-3b5d8.cloudfunctions.net/"
+                            }
                         }
                     ]
                 }
             },
             "assets": {
-                "66057add5fc4ea481f16bcb5": {
+                "66214b4a0fa515d896efde4e": {
+                    "name": "menu-lines.jpg",
+                    "originalname": "menu-lines.jpg",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde4e",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde4e",
+                    "size": "1738",
+                    "mimetype": "image/jpeg",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde4e",
+                    "createdAt": "2024-04-01T01:09:21.511Z",
+                    "updatedAt": "2024-04-01T01:09:21.511Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde4e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=487e980279b897110d3ead57baf1ac123ad4b2937fe5e4a150d739aa48a7fd0a9f9cb1c618f66d58ba8a1b9732117802dbd9d6efbd4c83686aa013c32cedf07ed24639c15b9c86aecc14c635799447342650ad33202d44bc3a60b93bd23c2d2e13a75579caa99f7987288b06dde821f4b63005d3971f07bb32be341b3255a469ac4a72e9b18cc00715c3d9c2b36521ef46671eaf060db079db513e1efda14404c51058dba74baf7e89b345b1d8242e058983b0ec065dcbf302b0a825a197eb7e87e70bff03b48bd1e3767f33df63461135a83a36e387c4f12d29360c330b94e4f158b9c01844f5c7da86a4279e756010c8380b16df92dbbf4e4c177ec388914b",
+                    "signedUrlExpirationTime": 1713630892473
+                },
+                "66214b4a0fa515d896efde50": {
                     "name": "studysync-high-resolution-logo.png",
                     "originalname": "studysync-high-resolution-logo.png",
                     "externalStorageType": "GCS",
-                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66057add5fc4ea481f16bcb2/assets/66057add5fc4ea481f16bcb5",
-                    "backendURI": "/project/66057add5fc4ea481f16bcb2/getasset/66057add5fc4ea481f16bcb5",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde50",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde50",
                     "size": "48513",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "_id": "66057add5fc4ea481f16bcb5",
-                    "createdAt": "2024-03-14T14:52:11.520Z",
-                    "updatedAt": "2024-03-14T14:52:11.520Z",
+                    "_id": "66214b4a0fa515d896efde50",
+                    "createdAt": "2024-04-01T01:13:12.485Z",
+                    "updatedAt": "2024-04-01T01:13:12.485Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66057add5fc4ea481f16bcb2/assets/66057add5fc4ea481f16bcb5?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240328%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240328T141420Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=47a24428f88d70d19ce195d82e320cbbf6245ffd82a6b37613c17374dd13cc2e866cb749fd1c6146880115def0e16595dfc42bce76cca4d48a4cf88618a8a01f51638f1afea72f2c0bc5ca2b69cfd71947f78a7ad43819a82cbe613d36bbb403a75b0402f56e02cdc684a30ea446e77759be4a2d5308e29b2b04e936e782397340ba0c75c51fceb23a9bef47da1727198b497add9d3b33958f1df5e2b61e5dc06a489debaf1b84cedf620260514b13e3bd62ef5525f4e6c440ae3078777433a01e5f8537f2beb9f9dc089e6af05dc351626c33ba2e7ee388f0e0dcc77f7fcbc7388d7fa18dce6c5fbf693c71495a7abff4097cc7f57e2dc39b4a4cfe38feed65",
-                    "signedUrlExpirationTime": 1711808060983
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde50?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3172dafd164ffb9cff0e53eb3780e5d7c03bd18745de5aa09d875d49455013d40a4e376aca751fd1780b2f4739d917cc7e9b9792c5fb7303a1793533af7cd09ca53d375b93fa5e5cde7fe503bb3d0cf4b50fce617fc8da93edaa42c8dba68cf7333a8b989eedfaaa04986ce13d0aa077ea1cb2eadc89e8b6aa6a204761e3f63d4c50915ffc12a9372a7f0c561e0fdb00c2ef661e97c5f9922bac914585c96c2db3156d0d25f68e0e6250b581e77fe1551623351f0dedf82230d17c5f1347399d0b36749be6e13600f7e54c31a8fb78f89e5070fefb31de5be8061f1e07e8b7bbf0208191f1bf69917aff64da0beb741036ca2d3d7ff504c119d2af278bbcb535",
+                    "signedUrlExpirationTime": 1713630892477
+                },
+                "66214b4a0fa515d896efde52": {
+                    "name": "blob-scene-haikei.png",
+                    "originalname": "blob-scene-haikei.png",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde52",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde52",
+                    "size": "41796",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde52",
+                    "createdAt": "2024-04-12T01:13:11.707Z",
+                    "updatedAt": "2024-04-12T01:13:11.707Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde52?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=42237f5ae16a70fca3484ce1c9a54913057c8d9fc814154e0c5304c6d4e2c212aac55833c7e9ed944f540d31d9c0d760dc6b5fa1ff13c3aefcd1f8652786f483d680567386867efc88a5571740e75f54dc7b9bfed4e868c824d19b17d831756ea9b15d77ec3df996945b7411a466f31e5f226301b6362312f5157cf01a1949ef351dea20bc0eaeffdd090f88be899c8217ce977a4a4a308de28020be88506d74a9d2123711aec6b32424a040863f94efc5facdd86110b2c722fb320978ea45a256914723d8b11833a628489131d0725c0c236e69da9b6c2f720adc8a3a2718e9475076b0391652023c2bc6705ba9e65da9be217cc4c17eabe2a4fae42909a6e1",
+                    "signedUrlExpirationTime": 1713630892480
+                },
+                "66214b4a0fa515d896efde54": {
+                    "name": "studysync-high-resolution-logo-transparent.png",
+                    "originalname": "studysync-high-resolution-logo-transparent.png",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde54",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde54",
+                    "size": "62757",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde54",
+                    "createdAt": "2024-04-12T01:13:57.526Z",
+                    "updatedAt": "2024-04-12T01:13:57.526Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde54?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b396d57477025642443df282694e33b9d289da93fcd9f86f626272a89d83b77b0d2f391d4ce8ba48cb06c60945f8750106ae11736b32d5d4a7c8eb61f9e6cd9d7e15d68530781f9fb234d72c565ac0f6b5042ae039cff8181e795953c240b2d82ce91f3dc1666c4d1853a5e467afd716ae10e49da64081d2a351cbfa91a84c4ad36a00144073629cf6729ea83165d55a31bda5334b9b477cc226ce7e0aef9ff664cf9d5b607e0021bfc9a5d06c1c0e08b9f1587ff6ec362fbb9e3d59f32314fe93ad5d6ea3b5a4547ae3363b3a408ed7e9c6f38d462d7f6b6742d745381baafda2736a35452e8bd775cd8a4bb883a8308305b8063a6dd5b7ddd05c19f3f1e30c",
+                    "signedUrlExpirationTime": 1713630892483
+                },
+                "66214b4a0fa515d896efde56": {
+                    "name": "layered-waves-haikei.png",
+                    "originalname": "layered-waves-haikei.png",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde56",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde56",
+                    "size": "34286",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde56",
+                    "createdAt": "2024-04-12T01:22:32.931Z",
+                    "updatedAt": "2024-04-12T01:22:32.931Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde56?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=01fd33b03124fc9c623d18fa27446d0c5128a0c619f1ac9d47796a8e9537f63d266f31ec942c9a6ecdb60bd53d60b44d63d9ba1ac63f6ff8dc30b4b1fa63cd7500dbe7b4049964bdca37b627862cb8182828d3f709afa6f40c284ad51c72df39313171acff1f0e30b486dbed5ba84b592b7af46dfacfbe31411f3ef7f84e6fd027ca31a81a02858c64209f5ff0969c7bf193c29e09732210d572828131bc56dd9084e8e3a3f967abded31f2a41ace62bb76820f0f1ba46b842de4c056fe78be89120a7a3f6bdd88e748e8078bd0075f1849840af6d11aacfa59fd7fb86799373054563f4836ed5560eaf26553779680dac31548146203c3e8a94794fa3aa9781",
+                    "signedUrlExpirationTime": 1713630892487
+                },
+                "66214b4a0fa515d896efde58": {
+                    "name": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
+                    "originalname": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde58",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde58",
+                    "size": "8784",
+                    "mimetype": "image/jpeg",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde58",
+                    "createdAt": "2024-04-12T03:39:47.835Z",
+                    "updatedAt": "2024-04-12T03:39:47.835Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde58?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=73d1e2580539906d7c3ca2c066142d107126751895327fcfd61a9d67e4069abda469fe2e1ad943b69663438c56653ca1c91234db82ec418b838c2a0a0ed242e92fea1ba0bf26c7ba5cbbd0357434e325a619fcccd35c2f65eba0578d4636cdaab642a518fdc931a88b24ae5e5848fe57bee267880728d11b4ac567bfee91d2aa2fda8cf96fecf2008d458c552487489284039ea4219d577e202c96039e423b466ea4550e73c4d54c80a0c082f01809711b2b6f2284cb147f4d9c196e9e55f6c3d959d5c20a651abb26fe289cb8a3df05153be01c03488cdd31136ea39c534855c7a48396a2c37bb14036f83f902d380efe4c2bfb4a8c4482ce9d60a647eb5ca2",
+                    "signedUrlExpirationTime": 1713630892490
+                },
+                "66214b4a0fa515d896efde5a": {
+                    "name": "layered-peaks-haikei.png",
+                    "originalname": "layered-peaks-haikei.png",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde5a",
+                    "backendURI": "/project/66214b4a0fa515d896efde4b/getasset/66214b4a0fa515d896efde5a",
+                    "size": "58604",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "_id": "66214b4a0fa515d896efde5a",
+                    "createdAt": "2024-04-12T07:13:56.034Z",
+                    "updatedAt": "2024-04-12T07:13:56.034Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65a9955c47a3213aaf3b858d/projects/66214b4a0fa515d896efde4b/assets/66214b4a0fa515d896efde5a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240418%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240418T163452Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=231504d63eb6bfeb1283c04f2591fc3bf3ff5faebe281a009914fb519a43be0feda81bd0478b6b43d9620aa0607f6875fe232a466fe98e124d71cc098dae2c84eef99cc8837b7bde9ee267c05f1232eebe6591cad6470dc3b2be80d7e848c2b43f2986b945aab4a7e9eab34033e16d0f6a02c7ef6b461706c2a7add7064007c2b9c81680de3a096d422393faef295e2f5222dea8de71853fb760b6db128650d079a2c1945fc0ed78d9fd0cad83cbd13e95528432f6f621cae0bd717a220c62808c6453391f0b3c117645e9ba916a092d83639628d0a068f3edf23207d51f7f066599f897bd95ce90a6600fd2d12e3f535374a7942a8c041a661a77c990f60652",
+                    "signedUrlExpirationTime": 1713630892493
                 }
             },
-            "backendUpgradeVersion": 24,
+            "backendUpgradeVersion": 25,
             "blockly": {
                 "16f1ea67-693f-4c43-85b5-5cdd66c997a7": {
                     "xml": "",
@@ -94,6 +264,50 @@
                         "location": true,
                         "iap": false
                     }
+                },
+                "c57c48a4-c442-4a88-992c-3ccf5dd63730": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "a8ba9bca-91f7-4773-97e6-0af7462d9d15": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "416af2d7-2fcc-45c4-b435-2ebe600cdf77": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -111,10 +325,53 @@
                         "id": "8c347ff8-8160-47b3-9d17-644e84b56ad3"
                     },
                     {
-                        "id": "8bebbc11-e531-4599-863e-eded44af15dc"
+                        "id": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819"
                     },
                     {
-                        "id": "8c3a7e32-5a0a-48eb-949e-96e17d97d792"
+                        "type": "Drawer Navigator",
+                        "translatedName": "Drawer Navigator",
+                        "reactType": "DrawerNavigator",
+                        "properties": {
+                            "DrawerWidth": 215,
+                            "DrawerPosition": "left",
+                            "activeTintColor": "rgba(255, 255, 255, 1)",
+                            "activeBackgroundColor": "rgba(74, 144, 226, 1)",
+                            "inactiveTintColor": "rgba(0, 0, 0, 1)",
+                            "TabNavigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "config": {
+                                "contentOptions": {
+                                    "drawerPosition": "left",
+                                    "drawerStyle": {
+                                        "width": 215
+                                    },
+                                    "drawerActiveTintColor": "rgba(255, 255, 255, 1)",
+                                    "drawerActiveBackgroundColor": "rgba(74, 144, 226, 1)",
+                                    "drawerInactiveTintColor": "rgba(0, 0, 0, 1)"
+                                }
+                            },
+                            "navigationOptions": {
+                                "tabBarVisible": true
+                            }
+                        },
+                        "children": [
+                            {
+                                "id": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
+                            },
+                            {
+                                "id": "8bebbc11-e531-4599-863e-eded44af15dc"
+                            },
+                            {
+                                "id": "a8ba9bca-91f7-4773-97e6-0af7462d9d15"
+                            },
+                            {
+                                "id": "c57c48a4-c442-4a88-992c-3ccf5dd63730"
+                            }
+                        ],
+                        "id": "1cc2c8c2-05d8-42fa-95ab-0a642ca7e40c",
+                        "thunkableVersion": 450,
+                        "name": "Drawer_Navigator1"
                     }
                 ]
             },
@@ -153,10 +410,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -202,10 +456,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -267,6 +518,66 @@
                     "scope": "CLOUD",
                     "name": "email",
                     "screenId": "16f1ea67-693f-4c43-85b5-5cdd66c997a7"
+                },
+                "97078472-fe04-40eb-ba6a-e78f8ef7c3a5": {
+                    "scope": "STORED",
+                    "name": "name",
+                    "screenId": "38339342-9320-420a-922a-dd8a2f060883"
+                },
+                "a867265c-16e6-42ae-ae4f-a6357868d87f": {
+                    "scope": "CLOUD",
+                    "name": "recommendation",
+                    "screenId": "38339342-9320-420a-922a-dd8a2f060883"
+                },
+                "115d8b7c-8475-41e6-ab36-a772e9edc914": {
+                    "scope": "STORED",
+                    "name": "ans_recommendation",
+                    "screenId": "c57c48a4-c442-4a88-992c-3ccf5dd63730"
+                },
+                "6df674bc-c680-4c3a-8096-5ba1be260b2b": {
+                    "scope": "STORED",
+                    "name": "num_session",
+                    "screenId": "c57c48a4-c442-4a88-992c-3ccf5dd63730"
+                },
+                "a18c440e-ca81-4602-90ff-f08f154d0cf5": {
+                    "scope": "STORED",
+                    "name": "to do list",
+                    "screenId": "a8ba9bca-91f7-4773-97e6-0af7462d9d15"
+                },
+                "44defde9-7d40-4ef8-8ffa-fec858db61f9": {
+                    "scope": "APP",
+                    "name": "name1",
+                    "screenId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
+                },
+                "8e6df89c-400e-4298-a0ed-c9b7772196c5": {
+                    "scope": "APP",
+                    "name": "chats",
+                    "screenId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
+                },
+                "344cc2fe-a722-43a7-b321-0e908abf4797": {
+                    "scope": "APP",
+                    "name": "room_key",
+                    "screenId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77"
+                },
+                "f94573ff-04a1-47cb-af80-3fa9f29ebd8b": {
+                    "scope": "APP",
+                    "name": "chats",
+                    "screenId": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819"
+                },
+                "bf0f0c04-a6f1-42a9-aa33-fff6741ac757": {
+                    "scope": "APP",
+                    "name": "chatsSizes",
+                    "screenId": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819"
+                },
+                "ff2a70b4-5e22-4880-9a52-26738dca08d8": {
+                    "scope": "CLOUD",
+                    "name": "allChats",
+                    "screenId": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819"
+                },
+                "9f2547dc-461f-4354-9d15-d3a77c9a5255": {
+                    "scope": "APP",
+                    "name": "roomKeyChat",
+                    "screenId": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819"
                 }
             },
             "defaultDesignerDevice": "PHONE",
