@@ -46,7 +46,7 @@
         "ResponsiveWidth": 375,
         "isSimple": true,
         "navigationOptions": {
-            "drawerLabel": "Sign Out"
+            "drawerLabel": "Setting"
         },
         "BackgroundColor": "rgba(255, 255, 255, 1)",
         "BackgroundPicture": "layered-peaks-haikei.png"
@@ -57,7 +57,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Sign Out Reset Password",
+                "Text": "Setting",
                 "FontSize": 30,
                 "Font": "Abril Fatface",
                 "CustomFont": "",
@@ -65,13 +65,13 @@
                 "Color": "rgba(74, 144, 226, 1)",
                 "FontWeight": "bold",
                 "TextAlign": "center",
-                "Height": 118,
-                "Width": 171,
+                "Height": 50,
+                "Width": 173,
                 "Visible": true,
-                "X": 102,
-                "Y": 65,
-                "RelativeX": 102,
-                "RelativeY": 65,
+                "X": 101,
+                "Y": 51,
+                "RelativeX": 101,
+                "RelativeY": 51,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(74, 144, 226, 1)",
@@ -113,8 +113,8 @@
                 },
                 "ParentId": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
                 "position": "absolute",
-                "edgeOffsets": 65,
-                "children": "Sign Out Reset Password"
+                "edgeOffsets": 51,
+                "children": "Setting"
             },
             "children": [],
             "id": "e9c77727-4d02-4fe9-8679-08f27db74bc3",
@@ -125,7 +125,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "imgbin-white-menu-icon-white-stripes-illustration.jpg",
+                "Picture": "menu-lines.jpg",
                 "resizeMode": "stretch",
                 "Height": 36,
                 "Width": 35,
@@ -176,9 +176,9 @@
                 "Height": 163,
                 "Width": 353,
                 "Visible": false,
-                "X": 22,
+                "X": 11,
                 "Y": 187,
-                "RelativeX": 22,
+                "RelativeX": 11,
                 "RelativeY": 187,
                 "ResizeMode": "STRETCH",
                 "BackgroundColor": "rgba(255, 255, 255, 1)",
@@ -211,10 +211,10 @@
                         "Height": 30,
                         "Width": 140,
                         "Visible": true,
-                        "X": 124,
-                        "Y": 295,
+                        "X": 113,
+                        "Y": 311,
                         "RelativeX": 102,
-                        "RelativeY": 108,
+                        "RelativeY": 124,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -245,7 +245,7 @@
                         "Disabled": false,
                         "ParentId": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
                         "position": "absolute",
-                        "edgeOffsets": 296
+                        "edgeOffsets": 311
                     },
                     "children": [],
                     "id": "d6ed838e-17b0-4c18-97e7-d9557726e7be",
@@ -267,7 +267,7 @@
                         "Height": 28,
                         "Width": 323,
                         "Visible": true,
-                        "X": 34,
+                        "X": 23,
                         "Y": 201,
                         "RelativeX": 12,
                         "RelativeY": 14,
@@ -325,7 +325,7 @@
                     "reactType": "Rating",
                     "properties": {
                         "Value": 0,
-                        "Count": "10",
+                        "Count": "5",
                         "Icon": "star",
                         "Visible": true,
                         "Direction": "row",
@@ -334,16 +334,16 @@
                         "IconMargin": 1,
                         "RatingColor": "rgba(248, 231, 28, 1)",
                         "BackgroundColor": "#9B9B9B",
-                        "Height": 45,
-                        "Width": 285,
-                        "X": 53,
-                        "Y": 241,
-                        "RelativeX": 31,
-                        "RelativeY": 54,
+                        "Height": 68,
+                        "Width": 252,
+                        "X": 57,
+                        "Y": 234,
+                        "RelativeX": 46,
+                        "RelativeY": 47,
                         "ResizeMode": "STRETCH",
                         "ParentId": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
                         "position": "absolute",
-                        "edgeOffsets": 242,
+                        "edgeOffsets": 234,
                         "style": {
                             "position": "absolute",
                             "left": "25.22667236328125%",
@@ -430,6 +430,62 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
+                "Text": "Rate App",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 33,
+                "Y": 403,
+                "RelativeX": 33,
+                "RelativeY": 403,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "23.73333740234375%",
+                    "top": "47.07646176911544%",
+                    "display": "flex",
+                    "borderWidth": 1
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
+                "position": "absolute",
+                "edgeOffsets": 403
+            },
+            "children": [],
+            "id": "43770ca8-ae67-4f7e-8eba-6112f7f5410b",
+            "thunkableVersion": 453,
+            "bindings": null,
+            "name": "rate_Button2"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
                 "Text": "Reset Password",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
@@ -494,10 +550,10 @@
                 "Height": 49,
                 "Width": 311,
                 "Visible": true,
-                "X": 32,
-                "Y": 235,
-                "RelativeX": 32,
-                "RelativeY": 235,
+                "X": 33,
+                "Y": 269,
+                "RelativeX": 33,
+                "RelativeY": 269,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -529,7 +585,7 @@
                 "Disabled": false,
                 "ParentId": "c57c48a4-c442-4a88-992c-3ccf5dd63730",
                 "position": "absolute",
-                "edgeOffsets": 235
+                "edgeOffsets": 269
             },
             "children": [],
             "id": "e8dd72d3-b5d8-42aa-8b50-600505ab0a06",
@@ -538,5 +594,5 @@
         }
     ],
     "thunkableVersion": 450,
-    "name": "signOut_Screen1"
+    "name": "setting_Screen1"
 }
