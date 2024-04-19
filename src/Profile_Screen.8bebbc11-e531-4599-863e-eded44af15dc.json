@@ -46,7 +46,7 @@
         "ResponsiveWidth": 375,
         "isSimple": true,
         "navigationOptions": {
-            "drawerLabel": "Home"
+            "drawerLabel": "Profile"
         },
         "BackgroundColor": "rgba(255, 255, 255, 1)",
         "BackgroundPicture": "blob-scene-haikei.png"
@@ -946,5 +946,5 @@
         }
     ],
     "thunkableVersion": 448,
-    "name": "Home_Screen"
+    "name": "Profile_Screen"
 }

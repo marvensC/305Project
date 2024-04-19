@@ -54,15 +54,15 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "Picture": "studysync-high-resolution-logo-transparent.png",
+                "Picture": "studysync-high-resolution-logo.png",
                 "resizeMode": "stretch",
                 "Height": 284,
                 "Width": 291,
                 "Visible": true,
                 "X": 42,
-                "Y": 71,
+                "Y": 75,
                 "RelativeX": 42,
-                "RelativeY": 71,
+                "RelativeY": 75,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -88,7 +88,7 @@
                 },
                 "ParentId": "38339342-9320-420a-922a-dd8a2f060883",
                 "position": "absolute",
-                "edgeOffsets": 71
+                "edgeOffsets": 75
             },
             "children": [],
             "id": "4250cf1d-ef1b-46a1-ab02-83c36a87ded6",

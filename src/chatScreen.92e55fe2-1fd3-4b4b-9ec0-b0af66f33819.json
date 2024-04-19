@@ -1,4 +1,5 @@
 {
+    "id": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -192,7 +193,7 @@
                     "children": [],
                     "id": "079b7d83-408e-41f7-ac78-bb7ede1eded8",
                     "thunkableVersion": 453,
-                    "name": "Button5"
+                    "name": "send_Button5"
                 },
                 {
                     "type": "TextInput",
@@ -269,10 +270,10 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsColor": "rgba(0, 0, 0, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
-                "ShowArrow": true,
+                "ShowArrow": false,
                 "Height": 294,
                 "Width": 391,
                 "Visible": true,
@@ -441,7 +442,7 @@
                     "children": [],
                     "id": "9759743c-9eb0-421b-b9de-d444c51d1638",
                     "thunkableVersion": 453,
-                    "name": "Label9"
+                    "name": "roomKey_Label9"
                 },
                 {
                     "type": "Button",
@@ -495,7 +496,7 @@
                     "children": [],
                     "id": "715cb6bf-fde1-45ea-b1e4-313761b244bb",
                     "thunkableVersion": 453,
-                    "name": "Button4"
+                    "name": "end_Button4"
                 }
             ],
             "id": "1e65b8c2-28a4-4874-9680-7f75c6565ee6",
@@ -503,7 +504,6 @@
             "name": "Row1"
         }
     ],
-    "id": "92e55fe2-1fd3-4b4b-9ec0-b0af66f33819",
     "thunkableVersion": 453,
     "name": "chatScreen"
 }
