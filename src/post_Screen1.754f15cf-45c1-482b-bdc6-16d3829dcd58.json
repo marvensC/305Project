@@ -1,4 +1,5 @@
 {
+    "id": "754f15cf-45c1-482b-bdc6-16d3829dcd58",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -51,7 +52,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundPicture": "blob-scene-haikei.png"
     },
     "children": [
         {
@@ -197,14 +199,14 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(9, 69, 159, 1)",
                 "Height": 44,
                 "Width": 139,
                 "Visible": true,
-                "X": 116,
-                "Y": 572,
-                "RelativeX": 116,
-                "RelativeY": 572,
+                "X": 118,
+                "Y": 585,
+                "RelativeX": 118,
+                "RelativeY": 585,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -227,7 +229,8 @@
                     "position": "absolute",
                     "left": "7.066670735677083%",
                     "top": "79.46026986506746%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -235,7 +238,7 @@
                 "Disabled": false,
                 "ParentId": "754f15cf-45c1-482b-bdc6-16d3829dcd58",
                 "position": "absolute",
-                "edgeOffsets": 572
+                "edgeOffsets": 585
             },
             "children": [],
             "id": "d9f59f5c-5588-49e3-9d25-9740f23db68a",
@@ -377,7 +380,6 @@
             "name": "title_Label13"
         }
     ],
-    "id": "754f15cf-45c1-482b-bdc6-16d3829dcd58",
     "thunkableVersion": 453,
     "name": "post_Screen1"
 }

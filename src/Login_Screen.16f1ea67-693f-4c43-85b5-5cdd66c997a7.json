@@ -44,7 +44,8 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundPicture": "blob-scene-haikei.png"
+        "BackgroundPicture": "blob-scene-haikei.png",
+        "Scrollable": false
     },
     "children": [
         {
@@ -54,10 +55,10 @@
             "properties": {
                 "Text": "",
                 "FontSize": 18,
-                "Font": "",
+                "Font": "Abril Fatface",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(161, 6, 23, 1)",
                 "Height": 50,
                 "Width": 375,
                 "Visible": true,
@@ -67,7 +68,7 @@
                 "RelativeY": 619,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(161, 6, 23, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "letterSpacing": 0,
@@ -100,12 +101,16 @@
                     "left": "26.426664225260417%",
                     "top": "85.00749625187406%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "fontWeight": "normal",
+                    "textAlign": "center"
                 },
                 "ParentId": "16f1ea67-693f-4c43-85b5-5cdd66c997a7",
                 "position": "absolute",
                 "edgeOffsets": 619,
-                "children": ""
+                "children": "",
+                "FontWeight": "normal",
+                "TextAlign": "center"
             },
             "children": [],
             "id": "3c2de8d1-b71c-4277-ba5f-c39b3215fcf8",
@@ -299,7 +304,6 @@
             "properties": {
                 "Text": "Remember me?",
                 "FontSize": 18,
-                "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(74, 144, 226, 1)",

@@ -121,10 +121,10 @@
             "properties": {
                 "Text": "",
                 "FontSize": 18,
-                "Font": "",
+                "Font": "Abril Fatface",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(161, 6, 23, 1)",
                 "TextAlign": "center",
                 "Height": 49,
                 "Width": 375,
@@ -135,7 +135,7 @@
                 "RelativeY": 612,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(161, 6, 23, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "letterSpacing": 0,
@@ -169,12 +169,14 @@
                     "top": "74.2128935532234%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "textAlign": "center"
+                    "textAlign": "center",
+                    "fontWeight": "normal"
                 },
                 "ParentId": "8c347ff8-8160-47b3-9d17-644e84b56ad3",
                 "position": "absolute",
                 "edgeOffsets": 612,
-                "children": ""
+                "children": "",
+                "FontWeight": "normal"
             },
             "children": [],
             "id": "c90bf65b-7232-49e7-bd8b-85bdb737ea4c",

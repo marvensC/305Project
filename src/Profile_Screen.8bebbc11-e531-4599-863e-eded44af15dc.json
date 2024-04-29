@@ -905,13 +905,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 208,
+                "Height": 214,
                 "Width": 214,
                 "Visible": true,
-                "X": 80,
-                "Y": 61,
-                "RelativeX": 80,
-                "RelativeY": 61,
+                "X": 81,
+                "Y": 64,
+                "RelativeX": 81,
+                "RelativeY": 64,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -933,11 +933,12 @@
                     "position": "absolute",
                     "left": "28.7199951171875%",
                     "top": "39.130434782608695%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderRadius": 107
                 },
                 "ParentId": "8bebbc11-e531-4599-863e-eded44af15dc",
                 "position": "absolute",
-                "edgeOffsets": 61
+                "edgeOffsets": 64
             },
             "children": [],
             "id": "58767374-a394-407c-8b4a-9d073e5f3a60",
