@@ -1,4 +1,5 @@
 {
+    "id": "b1c93d3a-fe18-4406-b5fd-2334ffcd0658",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,7 +55,9 @@
             "headerStyle": {},
             "drawerLabel": "Forum"
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "Scrollable": false,
+        "BackgroundPicture": "blob-scene-haikei.png"
     },
     "children": [
         {
@@ -63,23 +66,23 @@
             "reactType": "Text",
             "properties": {
                 "Text": "Forum",
-                "FontSize": 25,
+                "FontSize": 30,
                 "Font": "Abril Fatface",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(74, 144, 226, 1)",
                 "TextAlign": "center",
-                "Height": 50,
-                "Width": 277,
+                "Height": 52,
+                "Width": 230,
                 "Visible": true,
-                "X": 70,
-                "Y": 27,
-                "RelativeX": 70,
-                "RelativeY": 27,
+                "X": 73,
+                "Y": 26,
+                "RelativeX": 73,
+                "RelativeY": 26,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(74, 144, 226, 1)",
-                    "fontSize": 25,
+                    "fontSize": 30,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
                     "letterSpacing": 0,
@@ -117,7 +120,7 @@
                 },
                 "ParentId": "416af2d7-2fcc-45c4-b435-2ebe600cdf77",
                 "position": "absolute",
-                "edgeOffsets": 27,
+                "edgeOffsets": 26.000000000000004,
                 "children": "Forum"
             },
             "children": [],
@@ -248,7 +251,7 @@
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(9, 70, 159, 1)",
                 "Height": 41,
                 "Width": 121,
                 "Visible": true,
@@ -278,7 +281,8 @@
                     "position": "absolute",
                     "left": "8.93333740234375%",
                     "top": "79.95502523396505%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderWidth": 1
                 },
                 "FontBold": false,
                 "FontItalic": false,
@@ -300,7 +304,7 @@
             "reactType": "ListView",
             "properties": {
                 "TextItems": [],
-                "TextItemsColor": "rgba(0, 0, 0, 1)",
+                "TextItemsColor": "rgba(74, 144, 226, 1)",
                 "TextItemsBackgroundColor": "rgba(0,0,0,0)",
                 "TextItemsFontSize": 16,
                 "ShowArrow": true,
@@ -348,7 +352,6 @@
             "name": "Simple_List7"
         }
     ],
-    "id": "b1c93d3a-fe18-4406-b5fd-2334ffcd0658",
     "thunkableVersion": 453,
     "name": "Forum_Screen1"
 }
