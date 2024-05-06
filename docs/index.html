@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App User Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+       
+        <img src="Studysync-logo.png" alt="logo-Image" width = 666 height = 500> <br>
+        <button onclick="navigateTo('index.html')">About Me</button>
+        <button onclick="navigateTo('how-to-use.html')">How to Use</button>
+        <button onclick="navigateTo('test-app.html')">Test App</button>
+    </div>
+    
+    <div class="content">
+        <h1>What is StudySync</h1>
+  
+
+        <div style="display: flex; align-items: center;">
+            <p>
+                Boost your productivity and collaboration with StudySync where task management meets <br> study groups. 
+                StudySync allows you to be able to connect with fellow students from <br> all universities to make study groups on selected 
+                class subjects and gives users the opportunity to connect with  others who are in the same discipline.   
+            </p>
+            <img id="largerImage" src="Studysync-logo.png" alt="Larger Image" height=622 width=500 style="float:right">
+        </div>
+    
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+        const images = document.querySelectorAll('.image-area img');
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                document.getElementById('largerImage').src = image.src;
+            });
+        });
+    </script>
+</body>
+</html>
