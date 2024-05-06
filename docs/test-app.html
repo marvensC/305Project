@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App User Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+       
+        <img src="Studysync-logo.png" alt="logo-Image" width = 666 height = 500> <br>
+        <button onclick="navigateTo('index.html')">About Me</button>
+        <button onclick="navigateTo('how-to-use.html')">How to Use</button>
+        <button onclick="navigateTo('test-app.html')">Test App</button>
+    </div>
+    <div class="testApp">
+        <iframe src="https://thunkable.site/w/EjVA7KiddFRkkVpkxZGWV" title="Chop Down the Tree Thunkable App" height = 1000 width = 500></iframe>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+        const images = document.querySelectorAll('.image-area img');
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                document.getElementById('largerImage').src = image.src;
+            });
+        });
+    </script>
+    
+</body>
+</html>
