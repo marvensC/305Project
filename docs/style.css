@@ -3,6 +3,8 @@
     color: #fff;
     padding: 10px;
     text-align: center;
+    border-radius: 15px;
+    min-height: 500px;
     
 }
 
@@ -34,10 +36,13 @@
 }
 
 .content{
-    background-color: #4a6cb0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5d4cfc;
     color: white;
     padding: 10px;
-    height: 850px;
+    margin: 10px;
+    border-radius: 15px;
+    min-height: 700px;
    
 }
 
@@ -48,7 +53,7 @@
 .content p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 21px;
-   padding-left: 30px;
+   padding-left: 150px;
  
     letter-spacing: 2px;
   
@@ -56,10 +61,35 @@
 }
 
 .contentBox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #5d4cfc;
     color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
-    height: 700px;
+    min-height: 700px;
+}
+
+.contentBox table{
+  margin-left: 200px;
+}
+
+.contentBox td{
+    padding: 35px;
+}
+
+.testApp{
+    background-color: #5d4cfc;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    min-height: 1000px;
+}
+
+.firstLine{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left : 100px;
+    font-size: 30px;
+    padding-right: 200px;
 }
