@@ -1,4 +1,4 @@
-![studysync-high-resolution-logo-transparent](https://github.com/marvensC/305Project/assets/110928777/5935e046-3dab-44ea-8970-d0ecb3350fbb)
+![StudySync Logo](https://github.com/marvensC/305Project/assets/110928777/5935e046-3dab-44ea-8970-d0ecb3350fbb)
 
 # StudySync
 
@@ -25,5 +25,5 @@ StudySync is more than just a study app; it's a platform that fosters collaborat
 ### Documentation
 Learn more from our [wiki](https://github.com/marvensC/305Project/wiki).
 
-#### Download internal test: 
-https://play.google.com/apps/internaltest/4701711631388486496
+#### Download Internal Test Release
+[Download from Google Play](https://play.google.com/apps/internaltest/4701711631388486496)
