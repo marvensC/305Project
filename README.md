@@ -1,1 +1,1 @@
-# 305Project
+# StudySync
