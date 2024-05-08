@@ -60,7 +60,7 @@
   
 }
 
-.contentBox{
+.contentBox {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #5d4cfc;
     color: white;
@@ -68,7 +68,7 @@
     margin: 10px;
     border-radius: 15px;
     min-height: 700px;
-    min-width: 1600px;
+    min-width: 2000px; /* Increased width to 2000px */
 }
 
 .contentBox table{
