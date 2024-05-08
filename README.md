@@ -22,8 +22,8 @@ StudySync is an app designed to boost your productivity and collaboration. It co
 
 StudySync is more than just a study app; it's a platform that fosters collaboration, networking, and academic growth. By bringing students together from various universities and disciplines, StudySync creates a vibrant community where learning extends beyond the classroom. Whether you're seeking academic support, looking to share knowledge, or simply want to connect with like-minded individuals, StudySync provides the tools and resources to enhance your educational experience.
 
-### Documentaion
-Learn more from our wiki.
+### Documentation
+Learn more from our [wiki](https://github.com/marvensC/305Project/wiki).
 
 #### Download internal test: 
 https://play.google.com/apps/internaltest/4701711631388486496
