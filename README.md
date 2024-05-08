@@ -1,6 +1,6 @@
-# StudySync
 
-## StudySync
+
+# StudySync
 
 StudySync is an app designed to boost your productivity and collaboration. It combines task management with study group functionality, allowing users to connect with fellow students from all universities. With StudySync, you can create study groups for selected class subjects and connect with others who are in the same discipline.
 
