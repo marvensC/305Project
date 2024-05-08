@@ -1,20 +1,73 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "UserSchema",
+  "title": "Backend Configuration Schema",
   "type": "object",
   "properties": {
-    "Friends": {
-      "type": "string"
+    "data": {
+      "type": "object",
+      "properties": {
+        "firebaseRealtimeDatabaseURL": {
+          "type": "string",
+          "format": "uri"
+        },
+        "dataIDs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["firebaseRealtimeDatabaseURL", "dataIDs", "collections"]
     },
-    "NumMessages": {
-      "type": "string"
+    "rules": {
+      "type": "object",
+      "properties": {
+        "securityRules": {
+          "type": "string"
+        }
+      },
+      "required": ["securityRules"]
     },
-    "Subjects": {
-      "type": "string"
+    "backups": {
+      "type": "object",
+      "properties": {
+        "backupFrequency": {
+          "type": "string",
+          "description": "Frequency of database backups (e.g., daily, weekly)"
+        }
+      },
+      "required": ["backupFrequency"]
     },
-    "UserName": {
-      "type": "string"
+    "usage": {
+      "type": "object",
+      "properties": {
+        "metricsMonitored": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["metricsMonitored"]
+    },
+    "extensions": {
+      "type": "object",
+      "properties": {
+        "firebaseExtensions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["firebaseExtensions"]
     }
   },
-  "required": ["Friends", "NumMessages", "Subjects", "UserName"]
+  "required": ["data", "rules", "backups", "usage", "extensions"]
 }
